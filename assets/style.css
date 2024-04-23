@@ -7,6 +7,7 @@
 
 * {
     font-family: 'Montserrat', sans-serif;
+    color: var(--bleu-noir);
     margin: 0;
     padding: 0;
 
@@ -18,6 +19,12 @@ html {
 
 body {
     background-image: url(img/fond.png);
+}
+
+h1 {
+    font-size: 4.5rem;
+    font-weight: 750;
+    line-height: 80px;
 }
 
 .header {
@@ -193,5 +200,66 @@ body {
         padding: 30px;
         font-size: 24px;
         box-shadow: 0 1px 0 #F4EAFF inset;
+    }
+}
+
+.hero-section {
+    margin: 0 25px;
+    border: 3px solid red;
+}
+
+.hero-info {
+    width: 45%;
+    border: 3px solid blue;
+
+}
+
+.hero-info h1 {
+    margin-bottom: 25px;
+}
+
+.hero-info h1 span {
+    color: var(--violet);
+}
+
+.hero-info p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 40px;
+    /* text-align: justify; */
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 70px;
+}
+
+.hero-buttons button {
+    border: none;
+    color: #fff;
+    background-color: var(--violet);
+    font-weight: 500;
+    border-radius: 30px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 1.3rem;
+    padding: 0.6em 1.5em;
+    width: 200px;
+}
+
+.hero-buttons button:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: anim 1.5s infinite;
+}
+
+@keyframes anim {
+    0% {
+        box-shadow: 0 0 0 0 var(--violet);
+    }
+
+    70% {
+        box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
     }
 }
