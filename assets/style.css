@@ -210,6 +210,26 @@ main {
 .hero-section {
     margin: 0 25px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.hero-section>a i {
+    font-size: 50px;
+    color: var(--bleu-noir);
+    cursor: pointer;
+}
+
+.hero-section>a i:hover {
+    font-size: 50px;
+    color: var(--violet);
+}
+
+
+.hero-content {
+    margin: 0 25px;
+    display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -241,7 +261,7 @@ main {
     gap: 70px;
 }
 
-.hero-buttons button {
+.hero-buttons a {
     border: none;
     color: white;
     background-color: var(--violet);
@@ -253,13 +273,15 @@ main {
     padding: 0.6em 1.5em;
     width: 200px;
     transition: all 300ms;
+    text-align: center;
+    text-decoration: none;
 }
 
-.hero-buttons button i {
+.hero-buttons a i {
     color: white;
 }
 
-.hero-buttons button:hover {
+.hero-buttons a:hover {
     background-position: right center;
     background-size: 200% auto;
     -webkit-animation: pulse 2s infinite;
@@ -269,7 +291,7 @@ main {
     border: 2px solid var(--violet);
 }
 
-.hero-buttons button:hover i {
+.hero-buttons a:hover i {
     color: var(--violet);
 }
 
@@ -366,4 +388,182 @@ main {
     100% {
         transform: rotate(0deg);
     }
+}
+
+.apropos {
+    margin: 100px;
+}
+
+.text {
+    padding: 45px;
+}
+
+.text h1 {
+    margin-bottom: 20px;
+}
+
+.text h1 span {
+    color: var(--violet);
+}
+
+.text p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    position: relative;
+}
+
+.cards>img {
+    width: 700px;
+    object-fit: cover;
+}
+
+.cards>div {
+    position: absolute;
+    width: 150px;
+    height: 120px;
+    border-radius: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ease-in-out;
+    background: rgba(255, 255, 255, 0.233);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.img {
+    position: absolute;
+    transition: 0.2s ease-in-out;
+    z-index: 1;
+    font-size: 100px;
+}
+
+.textBox {
+    opacity: 0;
+    width: 90%;
+    text-align: start;
+    transition: 0.2s ease-in-out;
+    z-index: 2;
+}
+
+.textBox>.texte {
+    font-weight: 500;
+    color: var(--bleu-noir);
+}
+
+.textBox>.head {
+    font-size: 1.3rem;
+}
+
+.textBox>.price {
+    font-size: 1rem;
+}
+
+.cards>div:hover {
+    width: 400px;
+    border-radius: 20px;
+}
+
+.cards>div:hover>.textBox {
+    opacity: 1;
+}
+
+.cards>div:hover>.img {
+    height: 65%;
+    filter: blur(7px);
+    animation: animation 3s infinite;
+    color: #9da2f3;
+}
+
+@keyframes animation {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.card:hover {
+    transform: scale(1.04) rotate(-1deg);
+}
+
+
+.down-left {
+    position: absolute;
+    top: 320px;
+    left: 150px;
+    right: 0;
+    bottom: 0;
+}
+
+.middle-left {
+    position: absolute;
+    top: 140px;
+    left: 300px;
+    right: 0;
+    bottom: 0;
+}
+
+.top {
+    position: absolute;
+    top: -40px;
+    bottom: 0;
+}
+
+.middle-right {
+    position: absolute;
+    top: 140px;
+    right: 300px;
+    bottom: 0;
+}
+
+.down-right {
+    position: absolute;
+    top: 320px;
+    right: 150px;
+    bottom: 0;
+}
+
+.cards>a {
+    position: absolute;
+    top: 550px;
+    border: none;
+    color: white;
+    background-color: var(--violet);
+    font-weight: 500;
+    border-radius: 30px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 1.3rem;
+    padding: 0.6em 1.5em;
+    width: 200px;
+    transition: all 300ms;
+    text-align: center;
+    text-decoration: none;
+}
+
+.cards>a:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: anim 1.5s infinite;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
 }
