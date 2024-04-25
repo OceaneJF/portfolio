@@ -507,36 +507,36 @@ main {
 .down-left {
     position: absolute;
     top: 320px;
-    left: 150px;
+    left: 250px;
     right: 0;
     bottom: 0;
 }
 
 .middle-left {
     position: absolute;
-    top: 140px;
-    left: 300px;
+    top: 120px;
+    left: 430px;
     right: 0;
     bottom: 0;
 }
 
 .top {
     position: absolute;
-    top: -40px;
+    top: -10px;
     bottom: 0;
 }
 
 .middle-right {
     position: absolute;
-    top: 140px;
-    right: 300px;
+    top: 120px;
+    right: 430px;
     bottom: 0;
 }
 
 .down-right {
     position: absolute;
     top: 320px;
-    right: 150px;
+    right: 250px;
     bottom: 0;
 }
 
