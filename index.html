@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/accueil.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -23,27 +23,27 @@
             <div class="hamburger"></div>
             <ul class="menu">
                 <li><a href="index.html">Accueil</a></li>
-                <li><a href="">Mes projets</a></li>
+                <li><a href="projets.html">Mes projets</a></li>
                 <li><a href="#qui">A propos</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
         </div>
     </header>
     <main>
-        <section class="hero-section">
+        <section class="hero-section reavel">
             <div class="hero-content">
-                <div class="hero-info">
+                <div class="hero-info reveal-2">
                     <h1>Salut moi c'est <span>Océane</span> <br>JEAN-FRANCOIS</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptates iusto dolor
                         necessitatibus
                         ipsa voluptatum amet, enim pariatur dolorum accusantium laboriosam. Exercitationem itaque,
                         perferendis quasi suscipit distinctio fugiat id at!</p>
-                    <div class="hero-buttons">
+                    <div class="hero-buttons reavel-3 ">
                         <a href=""><i class="fa-solid fa-download"></i> Mon CV</a>
-                        <a href="">Mes projets</a>
+                        <a href="projets.html">Mes projets</a>
                     </div>
                 </div>
-                <div class="hero-img">
+                <div class="hero-img reveal-4">
                     <img src="assets/img/moi.svg" alt="océane jean-francois">
                     <div class="front swing">
                         <p>Je maitrise le front</p>
@@ -76,16 +76,17 @@
             </div>
             <a href="#qui"><i class="fa-solid fa-angle-down fa-bounce"></i></a>
         </section>
-        <section id="qui" class="apropos">
+        <section id="qui" class="apropos reveal">
             <div class="text">
-                <h1> <span>Qui</span> suis-je ?</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam pariatur magnam dolorem esse
+                <h1 class="reveal-2"> <span>Qui</span> suis-je ?</h1>
+                <p class="reveal-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam pariatur magnam
+                    dolorem esse
                     nobis suscipit soluta quis, quas ipsa, exercitationem illum necessitatibus, illo placeat beatae
                     recusandae consequatur sunt at quos. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Provident vero dolorum quae voluptatibus unde in repellendus fugit dignissimos perferendis dolor?
                     Quae aliquam obcaecati cumque laudantium enim blanditiis tempore veniam quibusdam.</p>
             </div>
-            <div class="cards">
+            <div class="cards reveal-4">
                 <div class="down-left">
                     <i class="fa-brands fa-css3-alt img"></i>
                     <div class="textBox">
@@ -94,7 +95,7 @@
                             qui placeat quasi odio, asperiores natus !</p>
                     </div>
                 </div>
-                <div class="middle-left">
+                <div class="middle-left ">
                     <i class="fa-brands fa-css3-alt img"></i>
                     <div class="textBox">
                         <p class="texte head">Ethereum</p>
@@ -102,7 +103,7 @@
                             qui placeat quasi odio, asperiores natus !</p>
                     </div>
                 </div>
-                <div class="top">
+                <div class="top ">
                     <i class="fa-brands fa-css3-alt img"></i>
                     <div class="textBox">
                         <p class="texte head">Ethereum</p>
@@ -126,7 +127,7 @@
                             qui placeat quasi odio, asperiores natus !</p>
                     </div>
                 </div>
-                <a href="">Mes projets</a>
+                <a href="projets.html">Mes projets</a>
                 <img src="assets/img/encore-moi.png" alt="océane jean-francois">
             </div>
         </section>
@@ -154,6 +155,7 @@
             </a>
         </div>
     </footer>
+    <script type="module" src="assets/main.js"></script>
 </body>
 
 </html>

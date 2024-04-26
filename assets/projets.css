@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("style.css");
+
+body {
+    background-image: url(img/fond-projet.png);
+}
+
+main {
+    min-height: 75vh;
+}
+
+.projet {
+    margin: 40px 130px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 40px;
+
+}
+
+
+.text h1 {
+    padding-bottom: 20px;
+}
+
+.text h1 span {
+    color: var(--violet);
+}
+
+.text p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-projet button {
+    font-weight: 700;
+    border-radius: 30px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.6em 1em;
+    width: 150px;
+    transition: all 300ms;
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+    color: var(--violet);
+    border: 2px solid var(--violet);
+}
+
+.card-projet button:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: anim 1.5s infinite;
+    border: none;
+    color: white;
+    background-color: var(--violet);
+
+}
+
+@keyframes anim {
+    0% {
+        box-shadow: 0 0 0 0 var(--violet);
+    }
+
+    70% {
+        box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+}
+
+footer {
+    margin-top: 0;
+}
