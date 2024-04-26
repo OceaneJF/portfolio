@@ -39,6 +39,7 @@ main {
     padding-bottom: 40px;
 }
 
+
 .card-projet button {
     font-weight: 700;
     border-radius: 30px;
@@ -63,8 +64,8 @@ main {
     border: none;
     color: white;
     background-color: var(--violet);
-
 }
+
 
 @keyframes anim {
     0% {
@@ -80,12 +81,15 @@ main {
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
+}
 
+.cards a {
+    transition: all 0.5s ease-in-out;
 }
 
 .card {
     position: relative;
-    width: 300px;
+    width: 350px;
     height: 200px;
     background-image: url("img/card.jpg");
     border-radius: 10px;
