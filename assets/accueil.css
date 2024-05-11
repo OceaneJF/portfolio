@@ -238,7 +238,7 @@ body {
     align-items: center;
     justify-content: center;
     transition: 0.2s ease-in-out;
-    background: rgba(255, 255, 255, 0.233);
+    background: rgba(255, 255, 255, 0.664);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(6.5px);
     -webkit-backdrop-filter: blur(6.5px);
@@ -376,9 +376,13 @@ footer {
     margin-top: -100px;
 }
 
-@media screen and (min-width:1920px) {
+@media screen and (min-width:1921px) {
     .hero-section {
         margin: 200px 25px;
+    }
+
+    .hero-img {
+        width: 45%;
     }
 
     .text {
@@ -426,4 +430,110 @@ footer {
     .down-right {
         top: 370px;
     }
+}
+
+@media screen and (max-width:1919px) {
+    .hero-img {
+        width: 600px;
+    }
+
+    .hero-img img {
+        width: 600px;
+    }
+
+    h1 {
+        font-size: 3.8rem;
+        line-height: 60px;
+    }
+
+    .front {
+        top: 50px;
+        left: 0px;
+    }
+
+    .back {
+        top: 220px;
+        right: -50px;
+    }
+
+    .other {
+        top: 350px;
+        left: 0px;
+    }
+
+    .hero-content {
+        margin-top: 100px;
+    }
+
+    .hero-info {
+        margin: 0;
+    }
+
+
+    .down-left {
+        top: 300px;
+    }
+
+    .middle-left {
+        left: 250px;
+    }
+
+    .top {
+        top: -30px;
+    }
+
+    .middle-right {
+        right: 250px;
+    }
+
+    .down-right {
+        top: 300px;
+    }
+}
+
+@media screen and (max-width:1439px) {
+    .hero-content {
+        margin-top: 0px;
+    }
+
+    h1 {
+        font-size: 3rem;
+        line-height: 50px;
+    }
+
+    .hero-info p {
+        font-size: 1rem;
+    }
+
+    .hero-img>div {
+        font-size: 1rem;
+        width: 210px;
+        padding: 10px 0px;
+    }
+
+    .cards>div {
+        height: 100px;
+
+    }
+
+    .img {
+        font-size: 80px;
+    }
+
+    .textBox>.head {
+        font-size: 1.1rem;
+    }
+
+    .textBox>.price {
+        font-size: 0.8rem;
+    }
+
+    .cards>div:hover {
+        width: 300px;
+    }
+
+    .text p {
+        font-size: 1rem;
+    }
+
 }
