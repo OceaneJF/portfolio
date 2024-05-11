@@ -1,0 +1,62 @@
+[
+    {
+        "projet": "<span>O</span>domo",
+        "titre": "Implémentation d’une petite <span>station météorologique en Java</span> renvoyant des données dans le terminal de sortie",
+        "image":"odomo.png",
+        "figure":"Affichage de l’histogramme des températures des 60 dernières minutes aprés implémentation",
+        "resultat":"Code qui répond au besoin client, documenté de manière claire",
+        "competences":[
+            "Manipulation des  classes en Java",
+            "Manipulation des tableaux 1D et 2D",
+            "Etre autonome sur un projet de développement",
+            "Rédaction de compte rendu"
+        ],
+        "amelioration":"Ajouter une interface graphique",
+        "outils":[
+            {
+                "image": "java.png",
+                "nom":"Java"
+            },
+            {
+                "image": "netbeans.png",
+                "nom":"NetBeans" 
+            }
+        ],
+        "etapes":[
+            "Prise en compte du besoin client",
+            "Résolutions des problèmes d’affichages",
+            "Implémentation de modes manquant ( Java, matrice 2D )",
+            "Documentation et explication du travail réalisé"
+        ]
+    },
+    {
+        "projet": "<span>T</span>owa",
+        "titre": "Implémentation d’un <span>jeu de stratégie</span> possédant 14 niveaux de difficultés en <span>Java</span>",
+        "image":"towa.png",
+        "figure":"Plateau de jeu",
+        "resultat":"13 niveaux de jeu fonctionnelles respectant les règles pour chaque niveaux",
+        "competences":[
+            "Manipulation des  classes en Java",
+            "Manipulation des tableaux 1D et 2D",
+            "Development de ma logique algorithmique",
+            "Travailler avec des delais courts"
+        ],
+        "amelioration":"Rendre l’interface intéractive en codant le jeu en C# avec Visual Studio",
+        "outils":[
+            {
+                "image": "java.png",
+                "nom":"Java"
+            },
+            {
+                "image": "netbeans.png",
+                "nom":"NetBeans" 
+            }
+        ],
+        "etapes":[
+            "Appropriation du code initiale, reflexion sur les cas de tests",
+            "Implémentation des tests unitaires ( JUnit, Hamcrest)",
+            "Implémentation des niveaux de jeu (Java, matrice 2D)",
+            "Optimisation du code "
+        ]
+    }
+]
