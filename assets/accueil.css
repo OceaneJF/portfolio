@@ -4,6 +4,7 @@
 
 body {
     background-image: url(img/fond.png);
+
 }
 
 .hero-section {
@@ -14,6 +15,8 @@ body {
     height: 100%;
     gap: 40px;
 }
+
+
 
 .hero-section>a i {
     font-size: 50px;
@@ -367,4 +370,60 @@ body {
     background-color: transparent;
     color: white;
     border: 2px solid white;
+}
+
+footer {
+    margin-top: -100px;
+}
+
+@media screen and (min-width:1920px) {
+    .hero-section {
+        margin: 200px 25px;
+    }
+
+    .text {
+        margin-bottom: 150px;
+    }
+
+    .cards>img {
+        width: 900px;
+    }
+
+    .cards>a {
+        top: 800px;
+
+    }
+
+    .front {
+        top: 100px;
+    }
+
+    .back {
+        top: 400px;
+    }
+
+    .other {
+        top: 700px;
+    }
+
+
+    .down-left {
+        top: 370px;
+    }
+
+    .middle-left {
+        left: 630px;
+    }
+
+    .top {
+        top: -100px;
+    }
+
+    .middle-right {
+        right: 630px;
+    }
+
+    .down-right {
+        top: 370px;
+    }
 }
