@@ -537,3 +537,43 @@ footer {
     }
 
 }
+
+@media screen and (max-width:1025px) {
+
+    .hero-content {
+        gap: 50px;
+    }
+
+    .hero-info {
+        width: 90%;
+    }
+
+    .text {
+        padding: 0;
+        margin-bottom: 50px;
+    }
+
+    .down-left {
+        left: 0px;
+    }
+
+    .middle-left {
+        left: 0px;
+    }
+
+    .top {
+        top: -10px;
+    }
+
+    .middle-right {
+        right: 0px;
+    }
+
+    .down-right {
+        right: 0px;
+    }
+
+    footer {
+        margin-top: 0px;
+    }
+}
