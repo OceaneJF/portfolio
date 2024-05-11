@@ -577,3 +577,194 @@ footer {
         margin-top: 0px;
     }
 }
+
+@media screen and (max-width:541px) {
+
+    .hero-img {
+        width: 350px;
+    }
+
+    .hero-img img {
+        width: 350px;
+    }
+
+    .hero-info {
+        width: 80%;
+    }
+
+    .hero-section {
+        margin-top: 0px;
+    }
+
+    .hero-info h1 {
+        margin-bottom: 15px;
+    }
+
+    .hero-info p {
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        line-height: 35px;
+    }
+
+    .hero-buttons a {
+        font-size: 1rem;
+        width: 150px;
+        padding: 0.6em 0.6em;
+    }
+
+    .cards>img {
+        width: 400px;
+    }
+
+    .apropos {
+        margin: 80px 30px 0px 30px;
+    }
+
+    .text p {
+        font-size: 0.9rem;
+    }
+
+
+
+
+
+
+
+    .hero-img>div {
+        font-size: 0.9rem;
+        width: 160px;
+        padding: 10px 0px;
+    }
+
+    .cards>div {
+        height: 80px;
+
+    }
+
+
+    .hero-img i {
+        padding: 0;
+    }
+
+    .front {
+        top: 20px;
+    }
+
+    .back {
+        top: 120px;
+        right: -20px;
+    }
+
+    .other {
+        top: 195px;
+        left: 0px;
+    }
+
+
+    .cards>div {
+        width: 80px;
+    }
+
+    .img {
+        font-size: 50px;
+    }
+
+    .textBox>.head {
+        font-size: 0.9rem;
+    }
+
+    .textBox>.price {
+        font-size: 0.6rem;
+    }
+
+    .cards>div:hover {
+        width: 180px;
+    }
+
+    .text p {
+        font-size: 0.9rem;
+    }
+
+    .cards>a {
+        top: 450px;
+        font-size: 1rem;
+        padding: 0.6em 0.6em;
+        width: 160px;
+    }
+}
+
+@media screen and (max-width:392px) {
+
+    .hero-img {
+        width: 300px;
+    }
+
+    .hero-img img {
+        width: 300px;
+    }
+
+
+
+
+    .cards>img {
+        width: 330px;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .hero-info {
+        width: 100%;
+    }
+
+    .hero-img>div {
+        gap: 2px;
+        font-size: 0.8rem;
+        width: 150px;
+        padding: 5px 0px;
+        border-radius: 10px;
+    }
+
+    .back {
+        top: 110px;
+    }
+
+    .other {
+        top: 180px;
+    }
+
+
+
+    .down-left {
+        top: 200px;
+
+    }
+
+    .middle-left {
+        top: 85px;
+
+    }
+
+    .top {
+        top: -20px;
+    }
+
+    .middle-right {
+        top: 85px;
+    }
+
+    .down-right {
+        top: 200px;
+    }
+
+    .cards>a {
+        top: 380px;
+    }
+
+
+}

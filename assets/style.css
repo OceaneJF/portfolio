@@ -331,4 +331,9 @@ footer div {
     footer div {
         gap: 10px;
     }
+
+    .ojf {
+        width: 70px;
+        height: 70px;
+    }
 }
