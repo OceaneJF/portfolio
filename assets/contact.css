@@ -16,7 +16,7 @@ body {
 
 main {
     width: 100%;
-    height: 78vh;
+    height: calc(100vh - 200px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,6 +91,39 @@ span {
     text-decoration: none;
 }
 
-footer {
-    margin-top: 0;
+@media screen and (max-width:610px) {
+    .card {
+        width: 300px;
+        height: 230px;
+
+        padding: 10px 20px;
+
+    }
+
+    .card h1 {
+        font-size: 2rem;
+        line-height: 55px;
+        padding-bottom: 0px;
+    }
+
+    main {
+        width: 100%;
+        height: calc(100vh - 200px);
+    }
+
+    .cardContainer::before {
+        width: 150px;
+        height: 150px;
+    }
+
+    .cardContainer:hover::before {
+        transform: translate(150px, 50px);
+    }
+
+    .card div {
+        font-size: 1rem;
+        font-weight: 500;
+        padding-left: 10px;
+    }
+
 }

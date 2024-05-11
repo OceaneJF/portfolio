@@ -4,6 +4,7 @@
 
 body {
     background-image: url(img/fond.png);
+
 }
 
 .hero-section {
@@ -14,6 +15,8 @@ body {
     height: 100%;
     gap: 40px;
 }
+
+
 
 .hero-section>a i {
     font-size: 50px;
@@ -235,7 +238,7 @@ body {
     align-items: center;
     justify-content: center;
     transition: 0.2s ease-in-out;
-    background: rgba(255, 255, 255, 0.233);
+    background: rgba(255, 255, 255, 0.664);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(6.5px);
     -webkit-backdrop-filter: blur(6.5px);
@@ -367,4 +370,401 @@ body {
     background-color: transparent;
     color: white;
     border: 2px solid white;
+}
+
+footer {
+    margin-top: -100px;
+}
+
+@media screen and (min-width:1921px) {
+    .hero-section {
+        margin: 200px 25px;
+    }
+
+    .hero-img {
+        width: 45%;
+    }
+
+    .text {
+        margin-bottom: 150px;
+    }
+
+    .cards>img {
+        width: 900px;
+    }
+
+    .cards>a {
+        top: 800px;
+
+    }
+
+    .front {
+        top: 100px;
+    }
+
+    .back {
+        top: 400px;
+    }
+
+    .other {
+        top: 700px;
+    }
+
+
+    .down-left {
+        top: 370px;
+    }
+
+    .middle-left {
+        left: 630px;
+    }
+
+    .top {
+        top: -100px;
+    }
+
+    .middle-right {
+        right: 630px;
+    }
+
+    .down-right {
+        top: 370px;
+    }
+}
+
+@media screen and (max-width:1919px) {
+    .hero-img {
+        width: 600px;
+    }
+
+    .hero-img img {
+        width: 600px;
+    }
+
+    h1 {
+        font-size: 3.8rem;
+        line-height: 60px;
+    }
+
+    .front {
+        top: 50px;
+        left: 0px;
+    }
+
+    .back {
+        top: 220px;
+        right: -50px;
+    }
+
+    .other {
+        top: 350px;
+        left: 0px;
+    }
+
+    .hero-content {
+        margin-top: 100px;
+    }
+
+    .hero-info {
+        margin: 0;
+    }
+
+
+    .down-left {
+        top: 300px;
+    }
+
+    .middle-left {
+        left: 250px;
+    }
+
+    .top {
+        top: -30px;
+    }
+
+    .middle-right {
+        right: 250px;
+    }
+
+    .down-right {
+        top: 300px;
+    }
+}
+
+@media screen and (max-width:1439px) {
+    .hero-content {
+        margin-top: 0px;
+    }
+
+    h1 {
+        font-size: 3rem;
+        line-height: 50px;
+    }
+
+    .hero-info p {
+        font-size: 1rem;
+    }
+
+    .hero-img>div {
+        font-size: 1rem;
+        width: 210px;
+        padding: 10px 0px;
+    }
+
+    .cards>div {
+        height: 100px;
+
+    }
+
+    .img {
+        font-size: 80px;
+    }
+
+    .textBox>.head {
+        font-size: 1.1rem;
+    }
+
+    .textBox>.price {
+        font-size: 0.8rem;
+    }
+
+    .cards>div:hover {
+        width: 300px;
+    }
+
+    .text p {
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width:1025px) {
+
+    .hero-content {
+        gap: 50px;
+    }
+
+    .hero-info {
+        width: 90%;
+    }
+
+    .text {
+        padding: 0;
+        margin-bottom: 50px;
+    }
+
+    .down-left {
+        left: 0px;
+    }
+
+    .middle-left {
+        left: 0px;
+    }
+
+    .top {
+        top: -10px;
+    }
+
+    .middle-right {
+        right: 0px;
+    }
+
+    .down-right {
+        right: 0px;
+    }
+
+    footer {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width:541px) {
+
+    .hero-img {
+        width: 350px;
+    }
+
+    .hero-img img {
+        width: 350px;
+    }
+
+    .hero-info {
+        width: 80%;
+    }
+
+    .hero-section {
+        margin-top: 0px;
+    }
+
+    .hero-info h1 {
+        margin-bottom: 15px;
+    }
+
+    .hero-info p {
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        line-height: 35px;
+    }
+
+    .hero-buttons a {
+        font-size: 1rem;
+        width: 150px;
+        padding: 0.6em 0.6em;
+    }
+
+    .cards>img {
+        width: 400px;
+    }
+
+    .apropos {
+        margin: 80px 30px 0px 30px;
+    }
+
+    .text p {
+        font-size: 0.9rem;
+    }
+
+
+
+
+
+
+
+    .hero-img>div {
+        font-size: 0.9rem;
+        width: 160px;
+        padding: 10px 0px;
+    }
+
+    .cards>div {
+        height: 80px;
+
+    }
+
+
+    .hero-img i {
+        padding: 0;
+    }
+
+    .front {
+        top: 20px;
+    }
+
+    .back {
+        top: 120px;
+        right: -20px;
+    }
+
+    .other {
+        top: 195px;
+        left: 0px;
+    }
+
+
+    .cards>div {
+        width: 80px;
+    }
+
+    .img {
+        font-size: 50px;
+    }
+
+    .textBox>.head {
+        font-size: 0.9rem;
+    }
+
+    .textBox>.price {
+        font-size: 0.6rem;
+    }
+
+    .cards>div:hover {
+        width: 180px;
+    }
+
+    .text p {
+        font-size: 0.9rem;
+    }
+
+    .cards>a {
+        top: 450px;
+        font-size: 1rem;
+        padding: 0.6em 0.6em;
+        width: 160px;
+    }
+}
+
+@media screen and (max-width:392px) {
+
+    .hero-img {
+        width: 300px;
+    }
+
+    .hero-img img {
+        width: 300px;
+    }
+
+
+
+
+    .cards>img {
+        width: 330px;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .hero-info {
+        width: 100%;
+    }
+
+    .hero-img>div {
+        gap: 2px;
+        font-size: 0.8rem;
+        width: 150px;
+        padding: 5px 0px;
+        border-radius: 10px;
+    }
+
+    .back {
+        top: 110px;
+    }
+
+    .other {
+        top: 180px;
+    }
+
+
+
+    .down-left {
+        top: 200px;
+
+    }
+
+    .middle-left {
+        top: 85px;
+
+    }
+
+    .top {
+        top: -20px;
+    }
+
+    .middle-right {
+        top: 85px;
+    }
+
+    .down-right {
+        top: 200px;
+    }
+
+    .cards>a {
+        top: 380px;
+    }
+
+
 }
