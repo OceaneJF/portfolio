@@ -447,5 +447,5 @@ cursor: pointer;
     animation: anim 1.5s infinite;
     background-color: transparent;
     color: var(--violet);
-    border: 2px solid var(--violet);
+    border: 2px solid var(--violet) ;
 }
