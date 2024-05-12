@@ -27,7 +27,8 @@
             "Résolutions des problèmes d’affichages",
             "Implémentation de modes manquant ( Java, matrice 2D )",
             "Documentation et explication du travail réalisé"
-        ]
+        ],
+        "voirPlus":"https://www.google.com"
     },
     {
         "projet": "<span>T</span>owa",
@@ -57,6 +58,7 @@
             "Implémentation des tests unitaires ( JUnit, Hamcrest)",
             "Implémentation des niveaux de jeu (Java, matrice 2D)",
             "Optimisation du code "
-        ]
+        ],
+        "voirPlus":""
     }
 ]
