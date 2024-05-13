@@ -143,7 +143,7 @@ main {
     color: var(--bleu-noir);
     line-height: 1.4;
     height: 80px;
-    overflow-x: auto;
+    overflow-y: auto;
 }
 
 .badges {
@@ -310,7 +310,7 @@ footer {
     align-items: center;
     gap: 10px;
     height: 350px;
-    overflow-x: scroll;
+    overflow-y: scroll;
 }
 
 .text-boxed {
@@ -468,7 +468,7 @@ footer {
     animation: anim 1.5s infinite;
     background-color: transparent;
     color: var(--violet);
-    border: 2px solid var(--violet) ;
+    border: 2px solid var(--violet);
 }
 
 
