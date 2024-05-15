@@ -60,5 +60,123 @@
             "Optimisation du code "
         ],
         "voirPlus":""
+    },
+    {
+        "projet": "Towa <span>IA</span>",
+        "titre": "Implémentation d’une <span> IA </span> en <span> Java </span> capable d'affronter les IA des autres participants lors de simulations journalières sur un <span> jeu de stratégie. </span>",
+        "image":"towaIA.svg",
+        "figure":"Graphique des résultats des tournois journaliers",
+        "resultat":"Une IA fonctionelle n’engendrant pas de discalification et qui bat 90% des IA adversaires",
+        "competences":[
+            "Manipulation des  classes en Java",
+            "Maitrise de Git pour le travail en équipe",
+            "Development de mon esprit logique",
+            "Amélioration continue du code "
+        ],
+        "amelioration":"Rendre l’interface intéractive en codant le jeu en C# avec Visual Studio",
+        "outils":[
+            {
+                "image": "java.png",
+                "nom":"Java"
+            },
+            {
+                "image": "netbeans.png",
+                "nom":"NetBeans" 
+            },
+            {
+                "image": "GitLab.svg",
+                "nom":"GitLab" 
+            }
+        ],
+        "etapes":[
+            "Mise en place d’une stratégie et implémentation d’une IA (Java)",
+            "Test de l’IA contre d’autres IA plus intelligente ",
+            "Amélioration de l’IA en fonction des retours aprés simulation",
+            "Documentation et explication de la démarche logique  "
+        ],
+        "voirPlus":""
+    },
+    {
+        "projet": "Création d’un <span>site web statique</span>",
+        "titre": "Création d’un <span>site web </span> statique en <span> HTML/CSS </span> pour une entreprise innovante fictive",
+        "image":"Web.svg",
+        "figure":"Hero section du site web de l’entreprise fictive Alertgen",
+        "resultat":"Site web statique complet composé de 5 pages, respectant la maquette et la norme W3C",
+        "competences":[
+            "Intégration d’une maquette en HTML/CSS",
+            "Rendre un site responsive",
+            "Réalisation de wireframes sur Figma",
+            "Maitrise de git/gitlab"
+        ],
+        "amelioration":"Ajouter du Javascript pour rendre le site dynamique ",
+        "outils":[
+            {
+                "image": "HTMLCSS.svg",
+                "nom":"HTML/CSS"
+            },
+            {
+                "image": "VSCode.svg",
+                "nom":"VScode" 
+            },
+            {
+                "image": "GitLab.svg",
+                "nom":"GitLab" 
+            },
+            {
+                "image": "OVH.svg",
+                "nom":"OVH" 
+            },
+            {
+                "image": "Figma.svg",
+                "nom":"Figma" 
+            }
+        ],
+        "etapes":[
+            "Reflexion sur une idée d’entreprise innovante et réalisation, d’une fixhe personas ",
+            "Création de la maquette sur Figma ",
+            "Integration de la maquette en HTML/CSS + responsive",
+            "Validation W3C",
+            "Hébergement du site ( OVH)"
+        ],
+        "voirPlus":""
+    },
+    {
+        "projet": "<span>Portfolio</span> V1",
+        "titre": "Réalisation d’un <span>portfolio</span> présentant tous mes projets personnel en <span>HTML/CSS</span>",
+        "image":"PortfolioV1.svg",
+        "figure":" Hero section du portfolio",
+        "resultat":"Un site web responsive présentant mes projets personnels",
+        "competences":[
+            "Intégration d’une maquette en HTML/CSS",
+            "Rendre un site responsive",
+            "Réalisation de wireframes sur Figma",
+            "Héberger un site web"
+        ],
+        "amelioration":"Rendre le site dynamique avec du Javascript",
+        "outils":[
+            {
+                "image": "HTMLCSS.svg",
+                "nom":"HTML/CSS"
+            },
+            {
+                "image": "VSCode.svg",
+                "nom":"VScode" 
+            },
+            {
+                "image": "OVH.svg",
+                "nom":"OVH" 
+            },
+            {
+                "image": "Figma.svg",
+                "nom":"Figma" 
+            }
+        ],
+        "etapes":[
+            "Création d’une maquette sur Figma",
+            "Intégration de la maquette avec HTML/CSS",
+            "Rendre le site responsive",
+            "Hébergement du site ( OVH)"
+        ],
+        "voirPlus":""
     }
 ]
