@@ -143,7 +143,7 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.18);
     width: 270px;
     padding: 15px 0 15px 0;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 500;
     text-align: center;
     display: flex;
@@ -258,6 +258,20 @@ body {
     text-align: start;
     transition: 0.2s ease-in-out;
     z-index: 2;
+    height: 80%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.textBox::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+.textBox::-webkit-scrollbar-thumb {
+    background-color: #d1c0ff;
+    border-radius: 10px;
 }
 
 .textBox>.texte {

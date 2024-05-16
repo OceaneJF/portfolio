@@ -60,5 +60,520 @@
             "Optimisation du code "
         ],
         "voirPlus":""
+    },
+    {
+        "projet": "Towa <span>IA</span>",
+        "titre": "Implémentation d’une <span> IA </span> en <span> Java </span> capable d'affronter les IA des autres participants lors de simulations journalières sur un <span> jeu de stratégie. </span>",
+        "image":"towaIA.svg",
+        "figure":"Graphique des résultats des tournois journaliers",
+        "resultat":"Une IA fonctionelle n’engendrant pas de discalification et qui bat 90% des IA adversaires",
+        "competences":[
+            "Manipulation des  classes en Java",
+            "Maitrise de Git pour le travail en équipe",
+            "Development de mon esprit logique",
+            "Amélioration continue du code "
+        ],
+        "amelioration":"Rendre l’interface intéractive en codant le jeu en C# avec Visual Studio",
+        "outils":[
+            {
+                "image": "java.png",
+                "nom":"Java"
+            },
+            {
+                "image": "netbeans.png",
+                "nom":"NetBeans" 
+            },
+            {
+                "image": "GitLab.svg",
+                "nom":"GitLab" 
+            }
+        ],
+        "etapes":[
+            "Mise en place d’une stratégie et implémentation d’une IA (Java)",
+            "Test de l’IA contre d’autres IA plus intelligente ",
+            "Amélioration de l’IA en fonction des retours aprés simulation",
+            "Documentation et explication de la démarche logique  "
+        ],
+        "voirPlus":""
+    },
+    {
+        "projet": "Création d’un <span>site web statique</span>",
+        "titre": "Création d’un <span>site web </span> statique en <span> HTML/CSS </span> pour une entreprise innovante fictive",
+        "image":"Web.svg",
+        "figure":"Hero section du site web de l’entreprise fictive Alertgen",
+        "resultat":"Site web statique complet composé de 5 pages, respectant la maquette et la norme W3C",
+        "competences":[
+            "Intégration d’une maquette en HTML/CSS",
+            "Rendre un site responsive",
+            "Réalisation de wireframes sur Figma",
+            "Maitrise de git/gitlab"
+        ],
+        "amelioration":"Ajouter du Javascript pour rendre le site dynamique ",
+        "outils":[
+            {
+                "image": "HTMLCSS.svg",
+                "nom":"HTML/CSS"
+            },
+            {
+                "image": "VSCode.svg",
+                "nom":"VScode" 
+            },
+            {
+                "image": "GitLab.svg",
+                "nom":"GitLab" 
+            },
+            {
+                "image": "OVH.svg",
+                "nom":"OVH" 
+            },
+            {
+                "image": "Figma.svg",
+                "nom":"Figma" 
+            }
+        ],
+        "etapes":[
+            "Reflexion sur une idée d’entreprise innovante et réalisation, d’une fixhe personas ",
+            "Création de la maquette sur Figma ",
+            "Integration de la maquette en HTML/CSS + responsive",
+            "Validation W3C",
+            "Hébergement du site ( OVH)"
+        ],
+        "voirPlus":""
+    },
+    {
+        "projet": "<span>Portfolio</span> V1",
+        "titre": "Réalisation d’un <span>portfolio</span> présentant tous mes projets personnel en <span>HTML/CSS</span>",
+        "image":"PortfolioV1.svg",
+        "figure":" Hero section du portfolio",
+        "resultat":"Un site web responsive présentant mes projets personnels",
+        "competences":[
+            "Intégration d’une maquette en HTML/CSS",
+            "Rendre un site responsive",
+            "Réalisation de wireframes sur Figma",
+            "Héberger un site web"
+        ],
+        "amelioration":"Rendre le site dynamique avec du Javascript",
+        "outils":[
+            {
+                "image": "HTMLCSS.svg",
+                "nom":"HTML/CSS"
+            },
+            {
+                "image": "VSCode.svg",
+                "nom":"VScode" 
+            },
+            {
+                "image": "OVH.svg",
+                "nom":"OVH" 
+            },
+            {
+                "image": "Figma.svg",
+                "nom":"Figma" 
+            }
+        ],
+        "etapes":[
+            "Création d’une maquette sur Figma",
+            "Intégration de la maquette avec HTML/CSS",
+            "Rendre le site responsive",
+            "Hébergement du site ( OVH)"
+        ],
+        "voirPlus":""
+    },
+    {
+        "projet": "Spooky <span>to do list</span>",
+        "titre": "Implémentation d’une <span>to do list</span> dynamique avec <span>Javascript</span>",
+        "image":"ToDoList.svg",
+        "figure":"Image de la to do list",
+        "resultat":"Une application to do list fonctionelle qui garde en mémoire les taches à réaliser et dont l’image de fond est modifiable ",
+        "competences":[
+            "Intégration d’une maquette en HTML/CSS",
+            "Programmation évenementielle avec Javascript",
+            "Réalisation de wireframes sur Figma",
+            "Utilisation du localStorage avec Javascript ",
+            "Héberger un site web"
+        ],
+        "amelioration":"Pouvoir créer plusieurs to do list par thème ",
+        "outils":[
+            {
+                "image": "HTMLCSS.svg",
+                "nom":"HTML/CSS"
+            },
+            {
+                "image": "VSCode.svg",
+                "nom":"VScode" 
+            },
+            {
+                "image": "OVH.svg",
+                "nom":"OVH" 
+            },
+            {
+                "image": "Figma.svg",
+                "nom":"Figma" 
+            },
+            {
+                "image": "Javascript.svg",
+                "nom":"Javascript" 
+            }
+        ],
+        "etapes":[
+            "Dessin du fond (tablette graphique) avec Ibis Paint X",
+            "Création de la maquette Figma ",
+            "Implémentation de la maquette avec HTML/CSS et Javascript",
+            "Hébergement du site sur OVH"
+        ],
+        "voirPlus":""
+    },
+    {
+        "projet": "Recherche <span>d'image</span>",
+        "titre": "Implémentation en <span>Javascript</span> d’une application de <span>recherche d’images</span> avec l’API Unsplash",
+        "image":"ImgSearch.svg",
+        "figure":"Application de recherche d’image ",
+        "resultat":"Un site web permettant de rechercher n’importe quelles images souhaitées et de les afficher ",
+        "competences":[
+            "Programmation évenementielle avec Javascript",
+            "Utilisation d’une API"
+        ],
+        "amelioration":"Ajouter une description pour chaque image et les rendre clickable pour les afficher en grand format",
+        "outils":[
+            {
+                "image": "HTMLCSS.svg",
+                "nom":"HTML/CSS"
+            },
+            {
+                "image": "VSCode.svg",
+                "nom":"VScode" 
+            },
+            {
+                "image": "GitHub.svg",
+                "nom":"GitHub" 
+            },
+            {
+                "image": "Javascript.svg",
+                "nom":"Javascript" 
+            }
+        ],
+        "etapes":[
+            "Etude du fonctionnement de l’API Unsplash",
+            "Implémentation de la partie statique du site en HTML/CSS",
+            "Implémentation de la partie dynamique du site avec Javascript"
+        ],
+        "voirPlus":""
+    },
+    {
+        "projet": "<span>Editeur</span> de graph",
+        "titre": "Implémentation d’un <span>éditeur de graph en C#</span> possédant une <span>interface graphique</span>",
+        "image":"Graph.svg",
+        "figure":"Affichage optenu sur l’interface graphique aprés implémentatioin de l’éditeur de graph",
+        "resultat":"Editeur de graph fonctionnel permettant de créer un graph et de le modifier ",
+        "competences":[
+            "Programmation evenemmentielle en C#",
+            "Developpement d’applicationb avec IHM",
+            "Maitrise de la notion de propriété en C#",
+            "Autonomie"
+        ],
+        "amelioration":"Réaliser le projet en JS",
+        "outils":[
+            {
+                "image": "C.svg",
+                "nom":"C#"
+            },
+            {
+                "image": "VisualStudio.svg",
+                "nom":"Visual Studio" 
+            }
+        ],
+        "etapes":[
+            "Prise en compte du cahier des charges",
+            "Implémentation des différentes fonctionalités ( C#, programmation évenementielle )",
+            "Optimisation du code "
+        ],
+        "voirPlus":""
+    },
+    {
+        "projet": "University deck <span>build duel</span>",
+        "titre": "Implémentation d’un <span>jeu de carte</span> en <span>C#</span> pour 2 joueurs dont l’objectif est de construire la plus belle université",
+        "image":"JeuCarte.svg",
+        "figure":"Interface du jeu terminé",
+        "resultat":"Jeu de carte fonctionnel respectant toutes les regles du jeu et jouable par 2 joueurs",
+        "competences":[
+            "Programmation evenemmentielle en C#",
+            "Developpement d’applicationb avec IHM",
+            "Programmation orienté objet en C#",
+            "Développer à partir d’un code existant"
+        ],
+        "amelioration":"Rendre le jeu multijoueur en utilisant les sockets",
+        "outils":[
+            {
+                "image": "C.svg",
+                "nom":"C#"
+            },
+            {
+                "image": "VisualStudio.svg",
+                "nom":"Visual Studio" 
+            }
+        ],
+        "etapes":[
+            "Analyse du squelette du projet de depart",
+            "Conception du diagramme UML du projet de départ",
+            "Implémentation du jeu et mise à jour du diagramme UML",
+            "Rédaction d’un compte rendu"
+        ],
+        "voirPlus":""
+    },
+    {
+        "projet": "Projet <span>Client POP3</span>",
+        "titre": "Developpement d’un <span>client POP3</span> en <span>C#</span> en mode graphique ",
+        "image":"POP3.svg",
+        "figure":"Interface graphique obtenue après avoir implémenté toutes les fonctionnalités.",
+        "resultat":"Client de messagerie qui structure les informations brutes retournées par le serveur dans un format plus intelligible.",
+        "competences":[
+            "Utilisation du protocole POP3",
+            "Programmation des Sockets TCP en C#",
+            "Developpement d’IHM",
+            "Travail d’équipe "
+        ],
+        "amelioration":"Lire l'HTML renvoyé par le serveur et l'afficher dans une nouvelle fenêtre.",
+        "outils":[
+            {
+                "image": "C.svg",
+                "nom":"C#"
+            },
+            {
+                "image": "VisualStudio.svg",
+                "nom":"Visual Studio" 
+            }
+        ],
+        "etapes":[
+            "Analyse fine du protocole POP3",
+            "Gestion de la connexion au socket POP3",
+            "Implémentation des fonctionnalités du client de messagerie (C#, POP3)",
+            "Rédaction d’un compte rendu"
+        ],
+        "voirPlus":""
+    },
+    {
+        "projet": "Installation d'une <span>machine virtuelle</span>",
+        "titre": "Création, installation et configuration d’une <span>machine virtuelle</span> ",
+        "image":"MV.svg",
+        "figure":"Image de la machine virtuelle et schéma de son architecture logiciel",
+        "resultat":"Machine virtuelle fonctionelle utilisant Lubuntu comme distribution et contenant toutes les dépendances nécessaires au fonctionnement du langage Haskell",
+        "competences":[
+            "Création, installation et configuration d’une machine virtuelle",
+            "Utilisation du terminal sous Linux ",
+            "Mise en place d’un environnment de developpement éfficace",
+            "Rédaction de documentation"
+        ],
+        "amelioration":"Mettre en place un débogueur ",
+        "outils":[
+            {
+                "image": "VMware.svg",
+                "nom":"VMware"
+            },
+            {
+                "image": "Lubuntu.svg",
+                "nom":"Lubuntu" 
+            },
+            {
+                "image": "bash.svg",
+                "nom":"Bash" 
+            },
+            {
+                "image": "Linux.svg",
+                "nom":"Linux" 
+            }
+        ],
+        "etapes":[
+            "Choix de la distribution Linux (Debian,Linux Lite, Lubuntu)",
+            "Allocation des ressources (RAM, CPU, Stockage)",
+            "Installation du langage Haskell et des dépendances nécessaire à son bon fonctionnement",
+            "Rédaction d’une documentation et restitution oral "
+        ],
+        "voirPlus":""
+    },
+    {
+        "projet": "Gestion des <span>prêts de documents</span>",
+        "titre": "Implémentation d’un <span>script bash</span> permettant la manipulation de fichiers <span>JSON</span> via la librairie <span>jq</span>",
+        "image":"ScriptBash.svg",
+        "figure":"Exemple d’utilisation du script bash",
+        "resultat":"Script Bash qui intègre les fonctionnalités de gestion des emprunts de documents.",
+        "competences":[
+            "Utilisation de la librairie jq",
+            "Réalisation de scripts en bash",
+            "Travailler en équipe ",
+            "Adaptabilité et autonomie face à la nouveauté (jq)"
+        ],
+        "amelioration":"Réaliser le projet en Javascript pour simplifier la manipulation des fichiers JSON ",
+        "outils":[
+            {
+                "image": "JQ.svg",
+                "nom":"jq"
+            },
+            {
+                "image": "JSON.svg",
+                "nom":"JSON" 
+            },
+            {
+                "image": "bash.svg",
+                "nom":"Bash" 
+            },
+            {
+                "image": "Linux.svg",
+                "nom":"Linux" 
+            }
+        ],
+        "etapes":[
+            "Découverte de jq via sa documentation",
+            "Developpement d’un script bash permettant la manipulation de fichiers JSON avec jq (CRUD)",
+            "Correction et amélioration du script via l’outil ShellCheck",
+            "Rédaction d’un compte rendu"
+        ],
+        "voirPlus":""
+    },
+    {
+        "projet": "Installation de <span>services réseaux</span>",
+        "titre": "Installation et configuration de <span>services réseaux</span> et de leur clients lourds associer dans un <span>environnement virtuel</span> émulant un <span>réseau de machines</span> sous Debian",
+        "image":"Reseau.svg",
+        "figure":"Schema du reseau",
+        "resultat":"Un reseau virtuel composé de clients légés (utilisateurs) qui peuvent intéragir avec les clients lours ( Nexcloud et Onlyoffice)",
+        "competences":[
+            "Administration système et réseau sous Linux",
+            "Installation et configuration  de serveurs et clients",
+            "Production de documentation au format Markdown",
+            "Travail d’équipe "
+        ],
+        "amelioration":"Ajouter d’autres services réseau",
+        "outils":[
+            {
+                "image": "NEMU.svg",
+                "nom":"NEMU"
+            },
+            {
+                "image": "Nextcloud.svg",
+                "nom":"Nextcloud" 
+            },
+            {
+                "image": "Debian.svg",
+                "nom":"Debian" 
+            },
+            {
+                "image": "OnlyOffice.svg",
+                "nom":"OnlyOffice" 
+            },
+            {
+                "image": "Linux.svg",
+                "nom":"Linux" 
+            }
+        ],
+        "etapes":[
+            "Configuration de l’adressage et du routage des machines du reseau",
+            "Installation et configuration des serveurs (services Nextcloud et Onlyoffice)",
+            "Installation et configuration des clients",
+            "Production d’un tutoriel détaillé en anglais au format Markdown"
+        ],
+        "voirPlus":""
+    },
+    {
+        "projet": "Création d’une <span>base de donnée</span>",
+        "titre": "Création d’une <span>base de donnée</span> pour un projet fictif de <span>numérisation</span> d’une librairie",
+        "image":"BD.svg",
+        "figure":"Schéma relationnel de la base (MLR)",
+        "resultat":"Base de donnée complète contenant des informations pertinantes répondant au besoins du client",
+        "competences":[
+            "Modélisation d’une base de donnée à partir des besoins client",
+            "Maitrise des requtes SQL",
+            "Maitrise du LDD",
+            "Travail d’équipe"
+        ],
+        "amelioration":"Creer un formulaire permettant de remplir la base de donnée",
+        "outils":[
+            {
+                "image": "WD.svg",
+                "nom":"WinDesign"
+            },
+            {
+                "image": "SQLSM.svg",
+                "nom":"SQL Serveur management" 
+            },
+            {
+                "image": "SQL.svg",
+                "nom":"SQL" 
+            }
+        ],
+        "etapes":[
+            "Prise en compte du besoin client",
+            "Réalisation d’un planning de réalisation et de répartition des taches (Gantt)",
+            "Conception du MCD sur WinDesign",
+            "Génération du MLR et du script de création  en y ajoutant des contraintes ( LDD)",
+            "Création d’un script de remplissage de la base pour la tester ( SQL)",
+            "Rédaction d’un compte rendu "
+        ],
+        "voirPlus":""
+    },
+    {
+        "projet": "<span>Pixel</span> War",
+        "titre": "Création de la partie client d’un jeu appelé la <span>“Guerre des pixels”</span> en <span>Javascript</span> en utilisant une <span>API</span> existante",
+        "image":"PixelWar.svg",
+        "figure":"Interface utilisateur du jeu de la Guerre des pixels ",
+        "resultat":"Interface permettant au joueur de jouer à la Guerre des pixels en temps réels avec d’autres joueurs ",
+        "competences":[
+            "Programmation evenemmentielle avec Javascript",
+            "Utilisation d’une API",
+            "Utilisation d’un canvas",
+            "Autonomie"
+        ],
+        "amelioration":"Rendre l’interface responsive",
+        "outils":[
+            {
+                "image": "Javascript.svg",
+                "nom":"Javascript"
+            },
+            {
+                "image": "HTMLCSS.svg",
+                "nom":"HTML/CSS" 
+            },
+            {
+                "image": "VSCode.svg",
+                "nom":"VScode" 
+            }
+        ],
+        "etapes":[
+            "Prise en compte du cahier des charges et du fonctionnement de l’API avec un Swagger",
+            "Conception de l’interface utilisateur avec HTML et CSS",
+            "Intégration de l’API dans l’application client avec Javascript",
+            "Implémentation de nouvelles fonctionnalités ",
+            "Test de debogage et ajout d’une JSDoc"
+        ],
+        "voirPlus":""
+    },
+    {
+        "projet": "Col'<span>mat</span>",
+        "titre": "Création d’une <span>maquette</span> pour le <span>site web</span> d’une association Basque de recyclage de matériaux avec <span>Figma</span>",
+        "image":"colmat.svg",
+        "figure":"Maquette du site web de l’association",
+        "resultat":"Un prototype de l’ensemble des pages du site version desktop et mobile respectant les règles de l’UX design et les attentes du client",
+        "competences":[
+            "UI/UX design",
+            "Création de wireframe et de maquette sur Figma",
+            "Création de prototype sur Figma",
+            "Ecouter et communiquer avec un client"
+        ],
+        "amelioration":"Faire la maquette pour la version tablette",
+        "outils":[
+            {
+                "image": "miro.svg",
+                "nom":"Miro"
+            },
+            {
+                "image": "Figma.svg",
+                "nom":"Figma" 
+            }
+        ],
+        "etapes":[
+            "Réalisation d’un moddboard sur Miro + Validation du client",
+            "Réalisation du wireframe du site + Validation du client",
+            "Réalisation de la maquette + Validation du client",
+            "Réalisation du prototype"
+        ],
+        "voirPlus":""
     }
 ]
