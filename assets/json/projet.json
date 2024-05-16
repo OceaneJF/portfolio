@@ -544,5 +544,36 @@
             "Test de debogage et ajout d’une JSDoc"
         ],
         "voirPlus":""
+    },
+    {
+        "projet": "Col'<span>mat</span>",
+        "titre": "Création d’une <span>maquette</span> pour le <span>site web</span> d’une association Basque de recyclage de matériaux avec <span>Figma</span>",
+        "image":"colmat.svg",
+        "figure":"Maquette du site web de l’association",
+        "resultat":"Un prototype de l’ensemble des pages du site version desktop et mobile respectant les règles de l’UX design et les attentes du client",
+        "competences":[
+            "UI/UX design",
+            "Création de wireframe et de maquette sur Figma",
+            "Création de prototype sur Figma",
+            "Ecouter et communiquer avec un client"
+        ],
+        "amelioration":"Faire la maquette pour la version tablette",
+        "outils":[
+            {
+                "image": "miro.svg",
+                "nom":"Miro"
+            },
+            {
+                "image": "Figma.svg",
+                "nom":"Figma" 
+            }
+        ],
+        "etapes":[
+            "Réalisation d’un moddboard sur Miro + Validation du client",
+            "Réalisation du wireframe du site + Validation du client",
+            "Réalisation de la maquette + Validation du client",
+            "Réalisation du prototype"
+        ],
+        "voirPlus":""
     }
 ]
