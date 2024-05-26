@@ -44,7 +44,6 @@ main {
     font-weight: 700;
     border-radius: 30px;
     background-size: 100% auto;
-    font-family: inherit;
     font-size: 1rem;
     padding: 0.6em 1em;
     width: 150px;
@@ -101,8 +100,7 @@ main {
 }
 
 .card img {
-    width: 100%;
-    height: auto;
+    max-width: 100%;
     border-radius: 10px;
 } 
 
