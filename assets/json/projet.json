@@ -1,15 +1,15 @@
 [
     {
         "projet": "<span>O</span>domo",
-        "titre": "Implémentation d’une petite <span>station météorologique en Java</span> renvoyant des données dans le terminal de sortie",
+        "titre": "Implémentation d’une petite <span>station météorologique en Java</span>, renvoyant des données dans le terminal de sortie.",
         "image":"odomo.png",
-        "figure":"Affichage de l’histogramme des températures des 60 dernières minutes aprés implémentation",
+        "figure":"Affichage de l’histogramme des températures des 60 dernières minutes après implémentation.",
         "resultat":"Code qui répond au besoin client, documenté de manière claire",
         "competences":[
             "Manipulation des  classes en Java",
             "Manipulation des tableaux 1D et 2D",
             "Etre autonome sur un projet de développement",
-            "Rédaction de compte rendu"
+            "Rédaction de comptes rendus"
         ],
         "amelioration":"Ajouter une interface graphique",
         "outils":[
@@ -24,25 +24,26 @@
         ],
         "etapes":[
             "Prise en compte du besoin client",
-            "Résolutions des problèmes d’affichages",
-            "Implémentation de modes manquant ( Java, matrice 2D )",
+            "Résolutions des problèmes d’affichage",
+            "Implémentation de modes manquants ( Java, matrice 2D )",
             "Documentation et explication du travail réalisé"
         ],
-        "voirPlus":"https://www.google.com"
+        "voirPlus":"https://github.com/RotoKaliDev",
+        "telecharger":"odomo.pdf"
     },
     {
         "projet": "<span>T</span>owa",
-        "titre": "Implémentation d’un <span>jeu de stratégie</span> possédant 14 niveaux de difficultés en <span>Java</span>",
+        "titre": "Implémentation d’un <span>jeu de stratégie</span> possédant 14 niveaux de difficulté en <span>Java</span>",
         "image":"towa.png",
         "figure":"Plateau de jeu",
-        "resultat":"13 niveaux de jeu fonctionnelles respectant les règles pour chaque niveaux",
+        "resultat":"13 niveaux de jeu fonctionnels respectant les règles pour chaque niveau.",
         "competences":[
             "Manipulation des  classes en Java",
             "Manipulation des tableaux 1D et 2D",
             "Development de ma logique algorithmique",
             "Travailler avec des delais courts"
         ],
-        "amelioration":"Rendre l’interface intéractive en codant le jeu en C# avec Visual Studio",
+        "amelioration":"Rendre l’interface interactive en codant le jeu en C# avec Visual Studio",
         "outils":[
             {
                 "image": "java.png",
@@ -59,18 +60,19 @@
             "Implémentation des niveaux de jeu (Java, matrice 2D)",
             "Optimisation du code "
         ],
-        "voirPlus":""
+        "voirPlus":"https://github.com/RotoKaliDev",
+        "telecharger":"towa.pdf"
     },
     {
         "projet": "Towa <span>IA</span>",
         "titre": "Implémentation d’une <span> IA </span> en <span> Java </span> capable d'affronter les IA des autres participants lors de simulations journalières sur un <span> jeu de stratégie. </span>",
         "image":"towaIA.svg",
         "figure":"Graphique des résultats des tournois journaliers",
-        "resultat":"Une IA fonctionelle n’engendrant pas de discalification et qui bat 90% des IA adversaires",
+        "resultat":"Une IA fonctionnelle n’engendrant pas de disqualification et qui bat 90% des IA adversaires.",
         "competences":[
             "Manipulation des  classes en Java",
-            "Maitrise de Git pour le travail en équipe",
-            "Development de mon esprit logique",
+            "Maîtrise de Git pour le travail en équipe",
+            "Développement de mon esprit logique",
             "Amélioration continue du code "
         ],
         "amelioration":"Rendre l’interface intéractive en codant le jeu en C# avec Visual Studio",
@@ -90,11 +92,12 @@
         ],
         "etapes":[
             "Mise en place d’une stratégie et implémentation d’une IA (Java)",
-            "Test de l’IA contre d’autres IA plus intelligente ",
+            "Test de l’IA contre d’autres IA plus intelligentes ",
             "Amélioration de l’IA en fonction des retours aprés simulation",
             "Documentation et explication de la démarche logique  "
         ],
-        "voirPlus":""
+        "voirPlus":"https://github.com/RotoKaliDev",
+        "telecharger":"towaIA.pdf"
     },
     {
         "projet": "Création d’un <span>site web statique</span>",
@@ -106,7 +109,7 @@
             "Intégration d’une maquette en HTML/CSS",
             "Rendre un site responsive",
             "Réalisation de wireframes sur Figma",
-            "Maitrise de git/gitlab"
+            "Maîtrise de git/gitlab"
         ],
         "amelioration":"Ajouter du Javascript pour rendre le site dynamique ",
         "outils":[
@@ -132,17 +135,18 @@
             }
         ],
         "etapes":[
-            "Reflexion sur une idée d’entreprise innovante et réalisation, d’une fixhe personas ",
+            "Réflexion sur une idée d’entreprise innovante et réalisation d’une fiche personas.",
             "Création de la maquette sur Figma ",
             "Integration de la maquette en HTML/CSS + responsive",
             "Validation W3C",
             "Hébergement du site ( OVH)"
         ],
-        "voirPlus":""
+        "voirPlus":"https://sae.oceane-jf.fr/",
+        "telecharger":"web.pdf"
     },
     {
         "projet": "<span>Portfolio</span> V1",
-        "titre": "Réalisation d’un <span>portfolio</span> présentant tous mes projets personnel en <span>HTML/CSS</span>",
+        "titre": "Réalisation d’un <span>portfolio</span> présentant tous mes projets personnels en <span>HTML/CSS</span>",
         "image":"PortfolioV1.svg",
         "figure":" Hero section du portfolio",
         "resultat":"Un site web responsive présentant mes projets personnels",
@@ -150,7 +154,7 @@
             "Intégration d’une maquette en HTML/CSS",
             "Rendre un site responsive",
             "Réalisation de wireframes sur Figma",
-            "Héberger un site web"
+            "Hébergement d'un site web"
         ],
         "amelioration":"Rendre le site dynamique avec du Javascript",
         "outils":[
@@ -177,20 +181,21 @@
             "Rendre le site responsive",
             "Hébergement du site ( OVH)"
         ],
-        "voirPlus":""
+        "voirPlus":"https://github.com/RotoKaliDev",
+        "telecharger":"v1.pdf"
     },
     {
         "projet": "Spooky <span>to do list</span>",
         "titre": "Implémentation d’une <span>to do list</span> dynamique avec <span>Javascript</span>",
         "image":"ToDoList.svg",
         "figure":"Image de la to do list",
-        "resultat":"Une application to do list fonctionelle qui garde en mémoire les taches à réaliser et dont l’image de fond est modifiable ",
+        "resultat":"Une application to-do list fonctionnelle qui garde en mémoire les tâches à réaliser et dont l’image de fond est modifiable.",
         "competences":[
             "Intégration d’une maquette en HTML/CSS",
             "Programmation évenementielle avec Javascript",
             "Réalisation de wireframes sur Figma",
             "Utilisation du localStorage avec Javascript ",
-            "Héberger un site web"
+            "Hébergement d’un site web."
         ],
         "amelioration":"Pouvoir créer plusieurs to do list par thème ",
         "outils":[
@@ -221,7 +226,8 @@
             "Implémentation de la maquette avec HTML/CSS et Javascript",
             "Hébergement du site sur OVH"
         ],
-        "voirPlus":""
+        "voirPlus":"https://github.com/RotoKaliDev/spooky-to-do-list",
+        "telecharger":"spooky.pdf"
     },
     {
         "projet": "Recherche <span>d'image</span>",
@@ -233,7 +239,7 @@
             "Programmation évenementielle avec Javascript",
             "Utilisation d’une API"
         ],
-        "amelioration":"Ajouter une description pour chaque image et les rendre clickable pour les afficher en grand format",
+        "amelioration":"Ajouter une description pour chaque image et les rendre cliquables pour les afficher en grand format.",
         "outils":[
             {
                 "image": "HTMLCSS.svg",
@@ -257,18 +263,19 @@
             "Implémentation de la partie statique du site en HTML/CSS",
             "Implémentation de la partie dynamique du site avec Javascript"
         ],
-        "voirPlus":""
+        "voirPlus":"https://github.com/RotoKaliDev/Image_search",
+        "telecharger":"imgsearch.pdf"
     },
     {
         "projet": "<span>Editeur</span> de graph",
-        "titre": "Implémentation d’un <span>éditeur de graph en C#</span> possédant une <span>interface graphique</span>",
+        "titre": "Implémentation d’un <span>éditeur de graphes en C#</span> possédant une <span>interface graphique</span>",
         "image":"Graph.svg",
-        "figure":"Affichage optenu sur l’interface graphique aprés implémentatioin de l’éditeur de graph",
-        "resultat":"Editeur de graph fonctionnel permettant de créer un graph et de le modifier ",
+        "figure":"Affichage obtenu sur l’interface graphique après implémentation de l’éditeur de graphes.",
+        "resultat":"Éditeur de graphes fonctionnel permettant de créer un graphe et de le modifier.",
         "competences":[
-            "Programmation evenemmentielle en C#",
-            "Developpement d’applicationb avec IHM",
-            "Maitrise de la notion de propriété en C#",
+            "Programmation événementielle en C#.",
+            "Développement d’applications avec IHM.",
+            "Maîtrise de la notion de propriété en C#.",
             "Autonomie"
         ],
         "amelioration":"Réaliser le projet en JS",
@@ -284,22 +291,23 @@
         ],
         "etapes":[
             "Prise en compte du cahier des charges",
-            "Implémentation des différentes fonctionalités ( C#, programmation évenementielle )",
+            "Implémentation des différentes fonctionnalités (C#, programmation événementielle).",
             "Optimisation du code "
         ],
-        "voirPlus":""
+        "voirPlus":"https://github.com/RotoKaliDev",
+        "telecharger":"graph.pdf"
     },
     {
         "projet": "University deck <span>build duel</span>",
-        "titre": "Implémentation d’un <span>jeu de carte</span> en <span>C#</span> pour 2 joueurs dont l’objectif est de construire la plus belle université",
+        "titre": "Implémentation d’un <span>jeu de cartes</span> en <span>C#</span> pour 2 joueurs dont l’objectif est de construire la plus belle université",
         "image":"JeuCarte.svg",
         "figure":"Interface du jeu terminé",
-        "resultat":"Jeu de carte fonctionnel respectant toutes les regles du jeu et jouable par 2 joueurs",
+        "resultat":"Jeu de cartes fonctionnel respectant toutes les règles du jeu et jouable par deux joueurs.",
         "competences":[
-            "Programmation evenemmentielle en C#",
-            "Developpement d’applicationb avec IHM",
+            "Programmation événementielle en C#.",
+            "Développement d’applicationb avec IHM",
             "Programmation orienté objet en C#",
-            "Développer à partir d’un code existant"
+            "Développement à partir d’un code existant"
         ],
         "amelioration":"Rendre le jeu multijoueur en utilisant les sockets",
         "outils":[
@@ -318,18 +326,19 @@
             "Implémentation du jeu et mise à jour du diagramme UML",
             "Rédaction d’un compte rendu"
         ],
-        "voirPlus":""
+        "voirPlus":"https://github.com/RotoKaliDev",
+        "telecharger":"deck.pdf"
     },
     {
         "projet": "Projet <span>Client POP3</span>",
-        "titre": "Developpement d’un <span>client POP3</span> en <span>C#</span> en mode graphique ",
+        "titre": "Développement d’un <span>client POP3</span> en <span>C#</span> en mode graphique ",
         "image":"POP3.svg",
         "figure":"Interface graphique obtenue après avoir implémenté toutes les fonctionnalités.",
         "resultat":"Client de messagerie qui structure les informations brutes retournées par le serveur dans un format plus intelligible.",
         "competences":[
             "Utilisation du protocole POP3",
             "Programmation des Sockets TCP en C#",
-            "Developpement d’IHM",
+            "Développement d’IHM",
             "Travail d’équipe "
         ],
         "amelioration":"Lire l'HTML renvoyé par le serveur et l'afficher dans une nouvelle fenêtre.",
@@ -349,7 +358,8 @@
             "Implémentation des fonctionnalités du client de messagerie (C#, POP3)",
             "Rédaction d’un compte rendu"
         ],
-        "voirPlus":""
+        "voirPlus":"https://github.com/RotoKaliDev",
+        "telecharger":"pop3.pdf"
     },
     {
         "projet": "Installation d'une <span>machine virtuelle</span>",
@@ -360,7 +370,7 @@
         "competences":[
             "Création, installation et configuration d’une machine virtuelle",
             "Utilisation du terminal sous Linux ",
-            "Mise en place d’un environnment de developpement éfficace",
+            "Mise en place d’un environnement de developpement efficace",
             "Rédaction de documentation"
         ],
         "amelioration":"Mettre en place un débogueur ",
@@ -385,17 +395,18 @@
         "etapes":[
             "Choix de la distribution Linux (Debian,Linux Lite, Lubuntu)",
             "Allocation des ressources (RAM, CPU, Stockage)",
-            "Installation du langage Haskell et des dépendances nécessaire à son bon fonctionnement",
+            "Installation du langage Haskell et des dépendances nécessaires à son bon fonctionnement.",
             "Rédaction d’une documentation et restitution oral "
         ],
-        "voirPlus":""
+        "voirPlus":"https://github.com/RotoKaliDev",
+        "telecharger":"vm.pdf"
     },
     {
         "projet": "Gestion des <span>prêts de documents</span>",
         "titre": "Implémentation d’un <span>script bash</span> permettant la manipulation de fichiers <span>JSON</span> via la librairie <span>jq</span>",
         "image":"ScriptBash.svg",
         "figure":"Exemple d’utilisation du script bash",
-        "resultat":"Script Bash qui intègre les fonctionnalités de gestion des emprunts de documents.",
+        "resultat":"Script Bash intégrant les fonctionnalités de gestion des emprunts de documents.",
         "competences":[
             "Utilisation de la librairie jq",
             "Réalisation de scripts en bash",
@@ -427,17 +438,18 @@
             "Correction et amélioration du script via l’outil ShellCheck",
             "Rédaction d’un compte rendu"
         ],
-        "voirPlus":""
+        "voirPlus":"https://github.com/RotoKaliDev",
+        "telecharger":"jq.pdf"
     },
     {
         "projet": "Installation de <span>services réseaux</span>",
-        "titre": "Installation et configuration de <span>services réseaux</span> et de leur clients lourds associer dans un <span>environnement virtuel</span> émulant un <span>réseau de machines</span> sous Debian",
+        "titre": "Installation et configuration de <span>services réseaux</span> et de leur clients lourds associés dans un <span>environnement virtuel</span> émulant un <span>réseau de machines</span> sous Debian",
         "image":"Reseau.svg",
         "figure":"Schema du reseau",
-        "resultat":"Un reseau virtuel composé de clients légés (utilisateurs) qui peuvent intéragir avec les clients lours ( Nexcloud et Onlyoffice)",
+        "resultat":"Un réseau virtuel composé de clients légers (utilisateurs) pouvant interagir avec les clients lourds (Nextcloud et Onlyoffice).",
         "competences":[
             "Administration système et réseau sous Linux",
-            "Installation et configuration  de serveurs et clients",
+            "Installation et configuration de serveurs et de clients",
             "Production de documentation au format Markdown",
             "Travail d’équipe "
         ],
@@ -470,7 +482,8 @@
             "Installation et configuration des clients",
             "Production d’un tutoriel détaillé en anglais au format Markdown"
         ],
-        "voirPlus":""
+        "voirPlus":"https://github.com/RotoKaliDev",
+        "telecharger":"reseau.pdf"
     },
     {
         "projet": "Création d’une <span>base de donnée</span>",
@@ -479,8 +492,8 @@
         "figure":"Schéma relationnel de la base (MLR)",
         "resultat":"Base de donnée complète contenant des informations pertinantes répondant au besoins du client",
         "competences":[
-            "Modélisation d’une base de donnée à partir des besoins client",
-            "Maitrise des requtes SQL",
+            "Modélisation d’une base de donnée à partir des besoins du client",
+            "Maitrise des requêtes SQL",
             "Maitrise du LDD",
             "Travail d’équipe"
         ],
@@ -501,13 +514,14 @@
         ],
         "etapes":[
             "Prise en compte du besoin client",
-            "Réalisation d’un planning de réalisation et de répartition des taches (Gantt)",
+            "Réalisation d’un planning de réalisation et de répartition des tâches (Gantt)",
             "Conception du MCD sur WinDesign",
             "Génération du MLR et du script de création  en y ajoutant des contraintes ( LDD)",
             "Création d’un script de remplissage de la base pour la tester ( SQL)",
             "Rédaction d’un compte rendu "
         ],
-        "voirPlus":""
+        "voirPlus":"https://github.com/RotoKaliDev",
+        "telecharger":"db.pdf"
     },
     {
         "projet": "<span>Pixel</span> War",
@@ -516,7 +530,7 @@
         "figure":"Interface utilisateur du jeu de la Guerre des pixels ",
         "resultat":"Interface permettant au joueur de jouer à la Guerre des pixels en temps réels avec d’autres joueurs ",
         "competences":[
-            "Programmation evenemmentielle avec Javascript",
+            "Programmation événementielle avec Javascript",
             "Utilisation d’une API",
             "Utilisation d’un canvas",
             "Autonomie"
@@ -543,7 +557,8 @@
             "Implémentation de nouvelles fonctionnalités ",
             "Test de debogage et ajout d’une JSDoc"
         ],
-        "voirPlus":""
+        "voirPlus":"https://github.com/RotoKaliDev",
+        "telecharger":"pixel.pdf"
     },
     {
         "projet": "Col'<span>mat</span>",
@@ -574,6 +589,7 @@
             "Réalisation de la maquette + Validation du client",
             "Réalisation du prototype"
         ],
-        "voirPlus":""
+        "voirPlus":"https://github.com/RotoKaliDev",
+        "telecharger":"colmat.pdf"
     }
 ]

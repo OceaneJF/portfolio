@@ -10,6 +10,7 @@ const modalTextRes = document.querySelector(".text-result");
 const modalSkills = document.querySelector(".modal-projet-result ul");
 const modalTextUpGrade = document.querySelector(".text-upgrade");
 const btnVoirPlus = document.querySelector(".voirPlus");
+const btnGithub = document.querySelector(".github");
 
 let modal = document.getElementById("myModal");
 let btn = document.getElementById("myBtn");
@@ -108,7 +109,8 @@ const handleCard = (idProjet) => {
         });
 
         modalTextUpGrade.textContent = cardInfo.amelioration;
-        btnVoirPlus.href = cardInfo.voirPlus;
+        btnVoirPlus.href = "assets/pdf/" + cardInfo.telecharger;
+        btnGithub.href = cardInfo.voirPlus;
       } else {
         modal.style.display = "none";
         document.body.style.overflow = "";
