@@ -10,7 +10,7 @@ const modalTextRes = document.querySelector(".text-result");
 const modalSkills = document.querySelector(".modal-projet-result ul");
 const modalTextUpGrade = document.querySelector(".text-upgrade");
 const btnVoirPlus = document.querySelector(".voirPlus");
-const btnGithub = document.querySelector(".github");
+const btnGithub = document.querySelector(".modal-github");
 
 let modal = document.getElementById("myModal");
 let btn = document.getElementById("myBtn");
