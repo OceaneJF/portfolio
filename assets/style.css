@@ -337,3 +337,14 @@ footer div {
         height: 70px;
     }
 }
+
+::-webkit-scrollbar {
+    background: transparent;
+    width: 1vh;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #bfaff8, #646FFA);
+    border: none;
+    border-radius: 1vh;
+}

@@ -102,7 +102,7 @@ main {
 .card img {
     max-width: 100%;
     border-radius: 10px;
-} 
+}
 
 .card:hover {
     transform: rotate(0deg) scale(1.1);
@@ -206,6 +206,7 @@ footer {
 .modal-projet h2 {
     font-size: 3rem;
     font-weight: 800;
+    text-align: center;
 }
 
 .modal-projet h2 span {
@@ -511,15 +512,15 @@ footer {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
 }
 
 .modal-footer {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
 }
 
@@ -538,6 +539,7 @@ footer {
         font-size: 0.9rem;
 
     }
+
     #projet-img {
         width: 100%;
         height: 250px;
@@ -552,7 +554,7 @@ footer {
         justify-content: center;
         gap: 0px;
     }
-    
+
     .modal-github {
         margin-top: 10px;
     }
