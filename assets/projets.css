@@ -33,10 +33,18 @@ main {
 }
 
 .btn {
+    position: sticky;
+    top: 0;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
     padding-bottom: 40px;
+    padding: 10px 0;
+    z-index: 1;
+    background: transparent;
+    backdrop-filter: blur(9px);
 }
 
 
