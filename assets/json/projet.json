@@ -685,5 +685,90 @@
         ],
         "voirPlus": "https://github.com/RotoKaliDev",
         "telecharger": "visuGraphe.pdf"
+    },
+    {
+        "projet": "<span>P</span>ierre, <span>P</span>apier, <span>C</span>iseaux",
+        "titre": "Développement d'un <span>jeu de Pierre-Papier-Ciseaux</span> interactif en <span>JavaScript</span> permettant à l’utilisateur de jouer contre l'ordinateur.",
+        "image": "PPC.png",
+        "figure": "Interface du jeu ",
+        "resultat": "Un jeu de Pierre-Papier-Ciseaux fonctionnel, affichant le score actuel du joueur et de l'ordinateur après chaque coup, ainsi qu'un message indiquant si le joueur a gagné, perdu ou fait match nul.",
+        "competences": [
+            "Intégration d’une maquette en HTML/CSS",
+            "Programmation évenementielle avec Javascript",
+            "Réalisation de wireframes sur Figma",
+            "Hébergement d’un site web"
+        ],
+        "amelioration": "Rendre le jeu multijoueur",
+        "outils": [
+            {
+                "image": "VSCode.svg",
+                "nom": "VScode"
+            },
+            {
+                "image": "HTMLCSS.svg",
+                "nom": "HTML/CSS"
+            },
+            {
+                "image": "Javascript.svg",
+                "nom": "Javascript"
+            },
+            {
+                "image": "Figma.svg",
+                "nom": "Figma"
+            },
+            {
+                "image": "GitHub.svg",
+                "nom": "GitHub"
+            }
+        ],
+        "etapes": [
+            "Réalisation de la maquette sur figma ",
+            "Intégration de la maquette  (HTML/CSS)+responsive",
+            "Implémentation de la partie dynamique (JavaScript)",
+            "Réalisation de tests fonctionnels"
+        ],
+        "voirPlus": "https://github.com/RotoKaliDev",
+        "telecharger": "JeuPPC.pdf"
+    },
+    {
+        "projet": "<span>Site vitrine</span> DJeff ",
+        "titre": "Création d'un <span>site vitrine WordPress</span> pour un <span>DJ</span> basé à Bayonne, mettant en avant ses services et prestations.",
+        "image": "siteWP.png",
+        "figure": "Hero section du site vitrine ",
+        "resultat": "Un site vitrine personnalisé  présentant ses services, tarifs, et prestations DJ, avec un formulaire de contact et un calendrier interactif pour consulter ses disponibilités.",
+        "competences": [
+            "Installation, configuration, et personnalisation de thèmes et plugins Wordpress",
+            "Ecouter et communiquer avec un client",
+            "Réalisation de wireframes sur Figma",
+            "Hébergement d’un site web"
+        ],
+        "amelioration": "Optimiser le site pour les moteurs de recherche afin d'améliorer sa visibilité en ligne et coder le calendrier en PHP",
+        "outils": [
+            {
+                "image": "WP.png",
+                "nom": "WordPress"
+            },
+            {
+                "image": "HTMLCSS.svg",
+                "nom": "HTML/CSS"
+            },
+            {
+                "image": "Javascript.svg",
+                "nom": "Javascript"
+            },
+            {
+                "image": "Figma.svg",
+                "nom": "Figma"
+            }
+        ],
+        "etapes": [
+            "Prise en compte du besoin client",
+            "Création d’un wireframe sur figma + validation du client",
+            "Intégration de la maquette avec Wordpress elementor",
+            "Ajout du text et des images fournies par le client",
+            "Mise en ligne du site"
+        ],
+        "voirPlus": "https://github.com/RotoKaliDev",
+        "telecharger": "siteDJeff.pdf"
     }
 ]
