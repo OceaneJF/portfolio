@@ -28,7 +28,7 @@
             "Implémentation de modes manquants ( Java, matrice 2D )",
             "Documentation et explication du travail réalisé"
         ],
-        "voirPlus": "https://github.com/RotoKaliDev",
+        "voirPlus": "https://github.com/OceaneJF/odomo",
         "telecharger": "odomo.pdf"
     },
     {
@@ -60,7 +60,7 @@
             "Implémentation des niveaux de jeu (Java, matrice 2D)",
             "Optimisation du code "
         ],
-        "voirPlus": "https://github.com/RotoKaliDev",
+        "voirPlus": "https://github.com/OceaneJF/Towa",
         "telecharger": "towa.pdf"
     },
     {
@@ -96,7 +96,7 @@
             "Amélioration de l’IA en fonction des retours aprés simulation",
             "Documentation et explication de la démarche logique  "
         ],
-        "voirPlus": "https://github.com/RotoKaliDev",
+        "voirPlus": "https://github.com/OceaneJF/Towa-IA",
         "telecharger": "towaIA.pdf"
     },
     {
@@ -141,7 +141,7 @@
             "Validation W3C",
             "Hébergement du site ( OVH)"
         ],
-        "voirPlus": "https://sae.oceane-jf.fr/",
+        "voirPlus": "https://github.com/OceaneJF/site-vitrine-Alertgen",
         "telecharger": "web.pdf"
     },
     {
@@ -181,7 +181,7 @@
             "Rendre le site responsive",
             "Hébergement du site ( OVH)"
         ],
-        "voirPlus": "https://github.com/RotoKaliDev",
+        "voirPlus": "https://github.com/OceaneJF/Portfoliov1",
         "telecharger": "v1.pdf"
     },
     {
@@ -226,7 +226,7 @@
             "Implémentation de la maquette avec HTML/CSS et Javascript",
             "Hébergement du site sur OVH"
         ],
-        "voirPlus": "https://github.com/RotoKaliDev/spooky-to-do-list",
+        "voirPlus": "https://github.com/OceaneJF/spooky-to-do-list",
         "telecharger": "spooky.pdf"
     },
     {
@@ -263,11 +263,11 @@
             "Implémentation de la partie statique du site en HTML/CSS",
             "Implémentation de la partie dynamique du site avec Javascript"
         ],
-        "voirPlus": "https://github.com/RotoKaliDev/Image_search",
+        "voirPlus": "https://github.com/OceaneJF/Image_search",
         "telecharger": "imgsearch.pdf"
     },
     {
-        "projet": "<span>Editeur</span> de graph",
+        "projet": "<span>Editeur</span> de graphe",
         "titre": "Implémentation d’un <span>éditeur de graphes en C#</span> possédant une <span>interface graphique</span>",
         "image": "Graph.svg",
         "figure": "Affichage obtenu sur l’interface graphique après implémentation de l’éditeur de graphes.",
@@ -294,7 +294,7 @@
             "Implémentation des différentes fonctionnalités (C#, programmation événementielle).",
             "Optimisation du code "
         ],
-        "voirPlus": "https://github.com/RotoKaliDev",
+        "voirPlus": "https://github.com/OceaneJF/Editeur-de-graphe",
         "telecharger": "graph.pdf"
     },
     {
@@ -326,7 +326,7 @@
             "Implémentation du jeu et mise à jour du diagramme UML",
             "Rédaction d’un compte rendu"
         ],
-        "voirPlus": "https://github.com/RotoKaliDev",
+        "voirPlus": "https://github.com/OceaneJF/Jeu-de-carte",
         "telecharger": "deck.pdf"
     },
     {
@@ -358,7 +358,7 @@
             "Implémentation des fonctionnalités du client de messagerie (C#, POP3)",
             "Rédaction d’un compte rendu"
         ],
-        "voirPlus": "https://github.com/RotoKaliDev",
+        "voirPlus": "https://github.com/OceaneJF/POP3",
         "telecharger": "pop3.pdf"
     },
     {
@@ -398,7 +398,7 @@
             "Installation du langage Haskell et des dépendances nécessaires à son bon fonctionnement.",
             "Rédaction d’une documentation et restitution oral "
         ],
-        "voirPlus": "https://github.com/RotoKaliDev",
+        "voirPlus": "assets/pdf/virtualMachine.pdf",
         "telecharger": "vm.pdf"
     },
     {
@@ -438,7 +438,7 @@
             "Correction et amélioration du script via l’outil ShellCheck",
             "Rédaction d’un compte rendu"
         ],
-        "voirPlus": "https://github.com/RotoKaliDev",
+        "voirPlus": "https://github.com/OceaneJF/gestion-des-pr-ts",
         "telecharger": "jq.pdf"
     },
     {
@@ -482,7 +482,7 @@
             "Installation et configuration des clients",
             "Production d’un tutoriel détaillé en anglais au format Markdown"
         ],
-        "voirPlus": "https://github.com/RotoKaliDev",
+        "voirPlus": "https://github.com/OceaneJF/Installation-reseau",
         "telecharger": "reseau.pdf"
     },
     {
@@ -520,7 +520,7 @@
             "Création d’un script de remplissage de la base pour la tester ( SQL)",
             "Rédaction d’un compte rendu "
         ],
-        "voirPlus": "https://github.com/RotoKaliDev",
+        "voirPlus": "assets/pdf/RBD.pdf",
         "telecharger": "db.pdf"
     },
     {
@@ -557,7 +557,7 @@
             "Implémentation de nouvelles fonctionnalités ",
             "Test de debogage et ajout d’une JSDoc"
         ],
-        "voirPlus": "https://github.com/RotoKaliDev",
+        "voirPlus": "https://github.com/OceaneJF/Pixel-war",
         "telecharger": "pixel.pdf"
     },
     {
@@ -589,7 +589,7 @@
             "Réalisation de la maquette + Validation du client",
             "Réalisation du prototype"
         ],
-        "voirPlus": "https://github.com/RotoKaliDev",
+        "voirPlus": "https://www.figma.com/design/TXtVrDbzKxhdcSkC45t8Ke/wireframe-association?node-id=0-1&t=TnHPmx6s0EkB7C9G-0",
         "telecharger": "colmat.pdf"
     },
     {
@@ -646,7 +646,7 @@
             "Développement de l'interface en C# et liaison avec les scripts",
             "Rédaction de comptes rendus, présentation orale et démonstration de l’application"
         ],
-        "voirPlus": "https://github.com/RotoKaliDev",
+        "voirPlus": "https://github.com/OceaneJF/Logiciel-visualisation",
         "telecharger": "ecoBreath.pdf"
     },
     {
@@ -683,7 +683,92 @@
             "Réalisation des tests fonctionnels",
             "Rédaction d’un compte rendu"
         ],
-        "voirPlus": "https://github.com/RotoKaliDev",
+        "voirPlus": "https://github.com/OceaneJF/Visualisation-de-graphe",
         "telecharger": "visuGraphe.pdf"
+    },
+    {
+        "projet": "<span>P</span>ierre, <span>P</span>apier, <span>C</span>iseaux",
+        "titre": "Développement d'un <span>jeu de Pierre-Papier-Ciseaux</span> interactif en <span>JavaScript</span> permettant à l’utilisateur de jouer contre l'ordinateur.",
+        "image": "PPC.png",
+        "figure": "Interface du jeu ",
+        "resultat": "Un jeu de Pierre-Papier-Ciseaux fonctionnel, affichant le score actuel du joueur et de l'ordinateur après chaque coup, ainsi qu'un message indiquant si le joueur a gagné, perdu ou fait match nul.",
+        "competences": [
+            "Intégration d’une maquette en HTML/CSS",
+            "Programmation évenementielle avec Javascript",
+            "Réalisation de wireframes sur Figma",
+            "Hébergement d’un site web"
+        ],
+        "amelioration": "Rendre le jeu multijoueur",
+        "outils": [
+            {
+                "image": "VSCode.svg",
+                "nom": "VScode"
+            },
+            {
+                "image": "HTMLCSS.svg",
+                "nom": "HTML/CSS"
+            },
+            {
+                "image": "Javascript.svg",
+                "nom": "Javascript"
+            },
+            {
+                "image": "Figma.svg",
+                "nom": "Figma"
+            },
+            {
+                "image": "GitHub.svg",
+                "nom": "GitHub"
+            }
+        ],
+        "etapes": [
+            "Réalisation de la maquette sur figma ",
+            "Intégration de la maquette  (HTML/CSS)+responsive",
+            "Implémentation de la partie dynamique (JavaScript)",
+            "Réalisation de tests fonctionnels"
+        ],
+        "voirPlus": "https://github.com/OceaneJF/rock-paper-scissors-game",
+        "telecharger": "JeuPPC.pdf"
+    },
+    {
+        "projet": "<span>Site vitrine</span> DJeff ",
+        "titre": "Création d'un <span>site vitrine WordPress</span> pour un <span>DJ</span> basé à Bayonne, mettant en avant ses services et prestations.",
+        "image": "siteWP.png",
+        "figure": "Hero section du site vitrine ",
+        "resultat": "Un site vitrine personnalisé  présentant ses services, tarifs, et prestations DJ, avec un formulaire de contact et un calendrier interactif pour consulter ses disponibilités.",
+        "competences": [
+            "Installation, configuration, et personnalisation de thèmes et plugins Wordpress",
+            "Ecouter et communiquer avec un client",
+            "Réalisation de wireframes sur Figma",
+            "Hébergement d’un site web"
+        ],
+        "amelioration": "Optimiser le site pour les moteurs de recherche afin d'améliorer sa visibilité en ligne et coder le calendrier en PHP",
+        "outils": [
+            {
+                "image": "WP.png",
+                "nom": "WordPress"
+            },
+            {
+                "image": "HTMLCSS.svg",
+                "nom": "HTML/CSS"
+            },
+            {
+                "image": "Javascript.svg",
+                "nom": "Javascript"
+            },
+            {
+                "image": "Figma.svg",
+                "nom": "Figma"
+            }
+        ],
+        "etapes": [
+            "Prise en compte du besoin client",
+            "Création d’un wireframe sur figma + validation du client",
+            "Intégration de la maquette avec Wordpress elementor",
+            "Ajout du text et des images fournies par le client",
+            "Mise en ligne du site"
+        ],
+        "voirPlus": "https://dj-bayonne.fr/",
+        "telecharger": "siteDJeff.pdf"
     }
 ]
