@@ -770,5 +770,104 @@
         ],
         "voirPlus": "https://dj-bayonne.fr/",
         "telecharger": "siteDJeff.pdf"
+    },
+    {
+        "projet": "<span>Job</span>Track",
+        "titre": "Développement d'une <span>application web</span> de <span>gestion d'offres d'emploi ( React / PHP ) </span> ",
+        "image": "JobtrackDashboard.png",
+        "figure": "Dasboard de Jobtrack",
+        "resultat": "Une application web permettant, après inscription et connexion, d'enregistrer des informations sur les entreprises auxquelles on souhaite postuler ou a déjà postulé, ainsi que des informations personnelles comme le CV, la lettre de motivation, etc.",
+        "competences": [
+            "Création d'interfaces interactives avec composants réutilisables en React",
+            "Développement d'API en PHP",
+            "Modiliser et créer une base de donnée en fonction des besoins",
+            "Gestion de l’authentification via token JWT"
+        ],
+        "amelioration": "Ajouter des filtres pour retrouver plus facilement les entreprises et notifier l’utilisateur après 2 semaines pour qu’il puisse faire une relance.",
+        "outils": [
+            {
+                "image": "React.png",
+                "nom": "React"
+            },
+            {
+                "image": "Tailwind.png",
+                "nom": "TailwindCSS"
+            },
+            {
+                "image": "PHP.png",
+                "nom": "PHP"
+            },
+            {
+                "image": "Figma.svg",
+                "nom": "Figma"
+            },
+            {
+                "image": "WebStorm.png",
+                "nom": "WebStorm"
+            },
+            {
+                "image": "PHPMyAdmin.png",
+                "nom": "PHPMyAdmin"
+            },
+            {
+                "image": "PHPStorm.png",
+                "nom": "PHPStorm"
+            },
+            {
+                "image": "GitHub.svg",
+                "nom": "GitHub"
+            }
+        ],
+        "etapes": [
+            "Création d’un wireframe sur figma ",
+            "Création de la base de donnée ( PHPMyAdmin )",
+            "Implémentation de l’API en PHP ",
+            "Implémentation du front et connection à l’API (React / Tailwind)",
+            "Mise en ligne du site"
+        ],
+        "voirPlus": "https://jobtrack.oceane-jf.fr/",
+        "telecharger": "JobTrack.pdf"
+    },
+    {
+        "projet": "<span>Labyrinthe</span>",
+        "titre": "Développement d'un<span> jeu de labyrinthe</span> en<span> Java/JavaFX</span> ",
+        "image": "LabAffichage.png",
+        "figure": "Affichage du 1er étage du labyrinthe",
+        "resultat": "Un jeu de labyrinthe multi-étages où un personnage doit éviter des monstres qui se déplacent aléatoirement. En cas de collision avec un monstre, le personnage meurt.",
+        "competences": [
+            "Développement orienté objet en Java",
+            "Utilisation de l'héritage et du polymorphisme",
+            "Affichage graphique avec JavaFX",
+            "Modélisation avec diagrammes UML",
+            "Création de tests unitaires"
+        ],
+        "amelioration": "Afficher le chemin le plus court vers la sortie avec la bibliothèque JGraphT.",
+        "outils": [
+            {
+                "image": "java.png",
+                "nom": "Java"
+            },
+            {
+                "image": "javaFX.png",
+                "nom": "JavaFX"
+            },
+            {
+                "image": "GitLab.svg",
+                "nom": "GitLab"
+            },
+            {
+                "image": "netbeans.png",
+                "nom": "NetBeans"
+            }
+        ],
+        "etapes": [
+            "Analyse du code existant",
+            "Réalisation du diagramme UML du code initial",
+            "Implémentation de l’API en PHP ",
+            "Implémentation des fonctionnalités du jeu",
+            "Mise en place de tests unitaires"
+        ],
+        "voirPlus": "https://github.com/OceaneJF/labyrinthe",
+        "telecharger": "labyrinthe.pdf"
     }
 ]
