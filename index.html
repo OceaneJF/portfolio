@@ -1,188 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/accueil.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portfolio - Océane Jean-François</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="assets/accueil.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>Portfolio - Océane Jean-François</title>
-</head>
-
-<body>
-  <header class="header">
-    <div class="logo">
-      <a href="index.html">
-        <img class="ojf" src="assets/img/logo.png" alt="logo ojf" />
-      </a>
-    </div>
-    <div class="navigation">
-      <input type="checkbox" class="menu-tel" />
-      <div class="hamburger"></div>
-      <ul class="menu">
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="projets.html">Mes projets</a></li>
-        <li><a href="#qui">A propos</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-  </header>
-  <main>
-    <section class="hero-section reavel">
-      <div class="hero-content">
-        <div class="hero-info reveal-2">
-          <h1>Bonjour, moi c'est <span>Océane</span> <br />JEAN-FRANCOIS</h1>
-          <p>
-            Bienvenue dans mon portfolio ! Je suis étudiante en BUT
-            Informatique à Gradignan, passionnée par le développement web,
-            avec une affinité particulière pour le front-end. Ici, je vous
-            présente tous les projets que j'ai eu le plaisir de réalisés.
-            Chaque projet représente un pas de plus dans mon parcours, je vous
-            souhaite donc une agréable lecture !
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="index.html">
+          <img class="ojf" src="assets/img/logo.png" alt="logo ojf" />
+        </a>
+      </div>
+      <div class="navigation">
+        <input type="checkbox" class="menu-tel" />
+        <div class="hamburger"></div>
+        <ul class="menu">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="projets.html">Mes projets</a></li>
+          <li><a href="#qui">A propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="hero-section reavel">
+        <div class="hero-content">
+          <div class="hero-info reveal-2">
+            <h1>Bonjour, moi c'est <span>Océane</span> <br />JEAN-FRANCOIS</h1>
+            <p>
+              Bienvenue dans mon portfolio ! Je suis étudiante en BUT
+              Informatique à Gradignan, passionnée par le développement web,
+              avec une affinité particulière pour le front-end. Ici, je vous
+              présente tous les projets que j'ai eu le plaisir de réalisés.
+              Chaque projet représente un pas de plus dans mon parcours, je vous
+              souhaite donc une agréable lecture !
+            </p>
+            <div class="hero-buttons reavel-3">
+              <a target="_blank" href="/assets/pdf/CV_Jean_François_Océane.pdf"
+                ><i class="fa-solid fa-download"></i> Mon CV</a
+              >
+              <a href="projets.html">Mes projets</a>
+            </div>
+          </div>
+          <div class="hero-img reveal-4">
+            <img src="assets/img/moi.svg" alt="océane jean-francois" />
+            <div class="front swing">
+              <p>J'ai des compétences en</p>
+              <div>
+                <i class="fa-brands fa-html5 fa-xl"></i>
+                <i class="fa-brands fa-css3-alt fa-xl"></i>
+                <i class="fa-brands fa-bootstrap fa-xl"></i>
+                <i class="fa-brands fa-square-js fa-xl"></i>
+                <i class="fa-brands fa-react fa-xl"></i>
+              </div>
+            </div>
+            <div class="back swing delay-250">
+              <p>Mais aussi en</p>
+              <div>
+                <i class="fa-brands fa-java fa-xl"></i>
+                <i class="fa-brands fa-php fa-xl"></i>
+                <i class="fa-brands fa-python fa-xl"></i>
+              </div>
+            </div>
+            <div class="other swing delay-500">
+              <p>Et bien plus encore!</p>
+              <div>
+                <i class="fa-brands fa-figma fa-xl"></i>
+                <i class="fa-brands fa-git fa-xl"></i>
+                <i class="fa-solid fa-terminal fa-xl"></i>
+                <i class="fa-solid fa-database fa-xl"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#qui"><i class="fa-solid fa-angle-down fa-bounce"></i></a>
+      </section>
+      <section id="qui" class="apropos reveal">
+        <div class="text">
+          <h1 class="reveal-2"><span>Qui</span> suis-je ?</h1>
+          <p class="reveal-3">
+            Je suis actuellement en fin de première année de BUT Informatique à
+            l’IUT de Gradignan. Après avoir entamé des études scientifiques en
+            école d’ingénieur, j'ai pris la décision de me réorienter afin de
+            suivre ma véritable passion pour le développement web et le web
+            design. À ce jour, j'ai eu l'opportunité de concrétiser plusieurs
+            projets personnels et académiques qui mettent en lumière mes
+            compétences en développement et en design web. Ces expériences m'ont
+            permis d'approfondir mes connaissances tout en cultivant ma
+            créativité. Je suis animée par le désir constant de progresser et
+            d'explorer de nouvelles possibilités dans ce domaine dynamique et
+            évolutif.
           </p>
-          <div class="hero-buttons reavel-3">
-            <a target="_blank" href="/assets/pdf/cv.pdf"><i class="fa-solid fa-download"></i> Mon CV</a>
-            <a href="projets.html">Mes projets</a>
-          </div>
         </div>
-        <div class="hero-img reveal-4">
-          <img src="assets/img/moi.svg" alt="océane jean-francois" />
-          <div class="front swing">
-            <p>J'ai des compétences en</p>
-            <div>
-              <i class="fa-brands fa-html5 fa-xl"></i>
-              <i class="fa-brands fa-css3-alt fa-xl"></i>
-              <i class="fa-brands fa-bootstrap fa-xl"></i>
-              <i class="fa-brands fa-square-js fa-xl"></i>
-              <i class="fa-brands fa-react fa-xl"></i>
+        <div class="cards reveal-4">
+          <div class="down-left">
+            <i class="fa-solid fa-terminal img"></i>
+            <div class="textBox">
+              <p class="texte head">DevOps</p>
+              <p class="texte price">
+                Je suis familière avec les pratiques DevOps, ce qui me permet de
+                maîtriser l'environnement Linux, l'installation et la
+                configuration de machines virtuelles, l'implémentation de
+                scripts bash, ainsi que l'utilisation avancée de Git pour le
+                versionnage de code et le travail collaboratif en équipe.
+              </p>
             </div>
           </div>
-          <div class="back swing delay-250">
-            <p>Mais aussi en</p>
-            <div>
-              <i class="fa-brands fa-java fa-xl"></i>
-              <i class="fa-brands fa-php fa-xl"></i>
-              <i class="fa-brands fa-python fa-xl"></i>
+          <div class="middle-left">
+            <i class="fa-solid fa-desktop img"></i>
+            <div class="textBox">
+              <p class="texte head">Logiciel/IHM</p>
+              <p class="texte price">
+                Je suis familière avec des langages orientés objet tels que Java
+                et C#, ce qui me permet une modélisation efficace des problèmes
+                complexes en utilisant des concepts comme l'encapsulation,
+                l'héritage et le polymorphisme.
+              </p>
             </div>
           </div>
-          <div class="other swing delay-500">
-            <p>Et bien plus encore!</p>
-            <div>
-              <i class="fa-brands fa-figma fa-xl"></i>
-              <i class="fa-brands fa-git fa-xl"></i>
-              <i class="fa-solid fa-terminal fa-xl"></i>
-              <i class="fa-solid fa-database fa-xl"></i>
+          <div class="top">
+            <i class="fa-solid fa-laptop-code img"></i>
+            <div class="textBox">
+              <p class="texte head">Integration</p>
+              <p class="texte price">
+                J'utilise HTML/CSS et JavaScript pour concevoir des interfaces
+                utilisateur interactives et des fonctionnalités dynamiques qui
+                enrichissent l'expérience des utilisateurs.
+              </p>
             </div>
           </div>
+          <div class="middle-right">
+            <i class="fa-solid fa-database img"></i>
+            <div class="textBox">
+              <p class="texte head">Base de donnée</p>
+              <p class="texte price">
+                Je maîtrise les fondamentaux nécessaires pour créer, manipuler
+                et gérer des bases de données, y compris le langage SQL.
+              </p>
+            </div>
+          </div>
+          <div class="down-right">
+            <i class="fa-solid fa-pen-nib img"></i>
+            <div class="textBox">
+              <p class="texte head">UI/UX</p>
+              <p class="texte price">
+                Je maitrise les bases de l’UX design, ayant notamment créé
+                plusieurs wireframes et maquettes avec Figma.
+              </p>
+            </div>
+          </div>
+          <a href="projets.html">Mes projets</a>
+          <img src="assets/img/encore-moi.png" alt="océane jean-francois" />
         </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <a href="index.html">
+          <img class="ojf" src="assets/img/logo.png" alt="logo ojf" />
+        </a>
+        <p>© 2024 Océane Jean-François</p>
       </div>
-      <a href="#qui"><i class="fa-solid fa-angle-down fa-bounce"></i></a>
-    </section>
-    <section id="qui" class="apropos reveal">
-      <div class="text">
-        <h1 class="reveal-2"><span>Qui</span> suis-je ?</h1>
-        <p class="reveal-3">
-          Je suis actuellement en fin de première année de BUT Informatique à
-          l’IUT de Gradignan. Après avoir entamé des études scientifiques en
-          école d’ingénieur, j'ai pris la décision de me réorienter afin de
-          suivre ma véritable passion pour le développement web et le web
-          design. À ce jour, j'ai eu l'opportunité de concrétiser plusieurs
-          projets personnels et académiques qui mettent en lumière mes
-          compétences en développement et en design web. Ces expériences m'ont
-          permis d'approfondir mes connaissances tout en cultivant ma
-          créativité. Je suis animée par le désir constant de progresser et
-          d'explorer de nouvelles possibilités dans ce domaine dynamique et
-          évolutif.
-        </p>
+      <div>
+        <a href="mention-legale.html">Mention légale</a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/oc%C3%A9ane-jean-francois/"
+          class="Btn"
+        >
+          <span class="svgContainer">
+            <i
+              class="fa-brands fa-linkedin-in fa-xl"
+              style="color: #ffffff"
+            ></i>
+          </span>
+          <span class="BG linkedin"></span>
+        </a>
+        <a target="_blank" href="https://github.com/OceaneJF" class="Btn">
+          <span class="svgContainer">
+            <i class="fa-brands fa-github fa-xl" style="color: #ffffff"></i>
+          </span>
+          <span class="BG github"></span>
+        </a>
       </div>
-      <div class="cards reveal-4">
-        <div class="down-left">
-          <i class="fa-solid fa-terminal img"></i>
-          <div class="textBox">
-            <p class="texte head">DevOps</p>
-            <p class="texte price">
-              Je suis familière avec les pratiques DevOps, ce qui me permet de
-              maîtriser l'environnement Linux, l'installation et la
-              configuration de machines virtuelles, l'implémentation de
-              scripts bash, ainsi que l'utilisation avancée de Git pour le
-              versionnage de code et le travail collaboratif en équipe.
-            </p>
-          </div>
-        </div>
-        <div class="middle-left">
-          <i class="fa-solid fa-desktop img"></i>
-          <div class="textBox">
-            <p class="texte head">Logiciel/IHM</p>
-            <p class="texte price">
-              Je suis familière avec des langages orientés objet tels que Java
-              et C#, ce qui me permet une modélisation efficace des problèmes
-              complexes en utilisant des concepts comme l'encapsulation,
-              l'héritage et le polymorphisme.
-            </p>
-          </div>
-        </div>
-        <div class="top">
-          <i class="fa-solid fa-laptop-code img"></i>
-          <div class="textBox">
-            <p class="texte head">Integration</p>
-            <p class="texte price">
-              J'utilise HTML/CSS et JavaScript pour concevoir des interfaces
-              utilisateur interactives et des fonctionnalités dynamiques qui
-              enrichissent l'expérience des utilisateurs.
-            </p>
-          </div>
-        </div>
-        <div class="middle-right">
-          <i class="fa-solid fa-database img"></i>
-          <div class="textBox">
-            <p class="texte head">Base de donnée</p>
-            <p class="texte price">
-              Je maîtrise les fondamentaux nécessaires pour créer, manipuler
-              et gérer des bases de données, y compris le langage SQL.
-            </p>
-          </div>
-        </div>
-        <div class="down-right">
-          <i class="fa-solid fa-pen-nib img"></i>
-          <div class="textBox">
-            <p class="texte head">UI/UX</p>
-            <p class="texte price">
-              Je maitrise les bases de l’UX design, ayant notamment créé
-              plusieurs wireframes et maquettes avec Figma.
-            </p>
-          </div>
-        </div>
-        <a href="projets.html">Mes projets</a>
-        <img src="assets/img/encore-moi.png" alt="océane jean-francois" />
-      </div>
-    </section>
-  </main>
-  <footer>
-    <div>
-      <a href="index.html">
-        <img class="ojf" src="assets/img/logo.png" alt="logo ojf" />
-      </a>
-      <p>© 2024 Océane Jean-François</p>
-    </div>
-    <div>
-      <a href="mention-legale.html">Mention légale</a>
-      <a target="_blank" href="https://www.linkedin.com/in/oc%C3%A9ane-jean-francois/" class="Btn">
-        <span class="svgContainer">
-          <i class="fa-brands fa-linkedin-in fa-xl" style="color: #ffffff"></i>
-        </span>
-        <span class="BG linkedin"></span>
-      </a>
-      <a target="_blank" href="https://github.com/OceaneJF" class="Btn">
-        <span class="svgContainer">
-          <i class="fa-brands fa-github fa-xl" style="color: #ffffff"></i>
-        </span>
-        <span class="BG github"></span>
-      </a>
-    </div>
-  </footer>
-  <script type="module" src="assets/main.js"></script>
-</body>
-
+    </footer>
+    <script type="module" src="assets/main.js"></script>
+  </body>
 </html>

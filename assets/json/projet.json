@@ -774,7 +774,7 @@
     {
         "projet": "<span>Job</span>Track",
         "titre": "Développement d'une <span>application web</span> de <span>gestion d'offres d'emploi ( React / PHP ) </span> ",
-        "image": "JobtrackDashboard.png",
+        "image": "JobTrackDashboard.png",
         "figure": "Dasboard de Jobtrack",
         "resultat": "Une application web permettant, après inscription et connexion, d'enregistrer des informations sur les entreprises auxquelles on souhaite postuler ou a déjà postulé, ainsi que des informations personnelles comme le CV, la lettre de motivation, etc.",
         "competences": [
@@ -869,5 +869,62 @@
         ],
         "voirPlus": "https://github.com/OceaneJF/labyrinthe",
         "telecharger": "labyrinthe.pdf"
+    },
+    {
+        "projet": "<span>Pawfect</span> sitter",
+        "titre": "Développement d’une plateforme de <span>gestion d’annonces</span> de <span>pet sitting</span> avec <span>Symfony</span> et <span>Vue.js.</span>",
+        "image": "pawfect.png",
+        "figure": "Page d’accueil de pawfect sitter",
+        "resultat": "Plateforme de publication et consultation d’annonces de pet sitting avec fonctionnalités d'authentification (inscription et connexion). Une fois connecté, l’utilisateur peut créer et publier des annonces, compléter son profil, et consulter les annonces des autres utilisateurs.",
+        "competences": [
+            "Développement d'applications web avec Symfony",
+            "Création d'interfaces dynamique en Vue.js",
+            "Modiliser une base de donnée en fonction des besoins",
+            "Intégration d'interfaces avec Twig et TailwindCSS"
+        ],
+        "amelioration": "Ajouter des filtres (trier les annonces par date et par ville), ajouter une fonctionnalité de favoris, et améliorer le design.",
+        "outils": [
+            {
+                "image": "symfony.png",
+                "nom": "Symfony"
+            },
+            {
+                "image": "vue.png",
+                "nom": "Vue.js"
+            },
+            {
+                "image": "twig.png",
+                "nom": "Twig"
+            },
+            {
+                "image": "Tailwind.png",
+                "nom": "TailwindCSS"
+            },
+            {
+                "image": "PHPMyAdmin.png",
+                "nom": "PHPMyAdmin"
+            },
+            {
+                "image": "PHPStorm.png",
+                "nom": "PHPStorm"
+            },
+            {
+                "image": "GitHub.svg",
+                "nom": "GitHub"
+            },
+            {
+                "image": "Figma.svg",
+                "nom": "Figma"
+            }
+        ],
+        "etapes": [
+            "Conception : Wireframes sur Figma et schéma entité-association pour la base de données.",
+            "Initialisation du projet Symfony ",
+            "Création des modèles (entités) et des contrôleurs (Symfony)",
+            "Implémentation de l'interface + responsive (Vue.js, Twig, TailwindCSS)",
+            "Déploiement de l’application"
+        ],
+        "voirPlus": "https://github.com/OceaneJF/pawfect-sitter",
+        "telecharger": "pawfect.pdf"
     }
 ]
