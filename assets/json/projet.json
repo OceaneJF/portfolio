@@ -926,5 +926,53 @@
         ],
         "voirPlus": "https://github.com/OceaneJF/pawfect-sitter",
         "telecharger": "pawfect.pdf"
+    },
+    {
+        "projet": "<span>Vagues</span> et <span>Veines</span>",
+        "titre": "Création d’un <span>blog</span> explorant les parallèles entre le corps humain et l’océan, développé avec <span>Symfony</span> et <span>TailwindCSS</span>",
+        "image": "V&VA.png",
+        "figure": "Page d’accueil du blog",
+        "resultat": "Un blog doté d’un système d’authentification complet (inscription et connexion), permettant de consulter des articles, d’en créer, ainsi que de modifier ou supprimer ses propres publications.",
+        "competences": [
+            "Développement d'applications web avec Symfony",
+            "Gestion des bases de données relationnelles avec Doctrine",
+            "Création d’interfaces web avec Twig et TailwindCSS",
+            "Implémentation complète de fonctionnalités CRUD"
+        ],
+        "amelioration": "Rendre le site entièrement responsive, ajouter une page de contact, intégrer des fonctionnalités de tri des articles",
+        "outils": [
+            {
+                "image": "symfony.png",
+                "nom": "Symfony"
+            },
+            {
+                "image": "twig.png",
+                "nom": "Twig"
+            },
+            {
+                "image": "Tailwind.png",
+                "nom": "TailwindCSS"
+            },
+            {
+                "image": "PHPMyAdmin.png",
+                "nom": "PHPMyAdmin"
+            },
+            {
+                "image": "PHPStorm.png",
+                "nom": "PHPStorm"
+            },
+            {
+                "image": "GitHub.svg",
+                "nom": "GitHub"
+            }
+        ],
+        "etapes": [
+            "Définition des fonctionalités et Modélisation des entités et relations dans la base de données",
+            "Création des contrôleurs , routes et entités avec Symfony et gestion des droits d’accès ",
+            "Création des pages dynamiques et des formulaires avec Twig et TailwindCSS",
+            "Finalisation et déploiement"
+        ],
+        "voirPlus": "https://github.com/OceaneJF/VicTeam",
+        "telecharger": "V&V.pdf"
     }
 ]
