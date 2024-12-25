@@ -974,5 +974,46 @@
         ],
         "voirPlus": "https://github.com/OceaneJF/VicTeam",
         "telecharger": "V&V.pdf"
+    },
+    {
+        "projet": "<span>MiniRSA</span>",
+        "titre": "Développement d’un système de <span>cryptographie asymétrique</span> avec signature numérique et génération de certificats en <span>Python</span>",
+        "image": "rdmMiniRSA.png",
+        "figure": "README du projet",
+        "resultat": "Un système fonctionnel de cryptographie asymétrique capable de : chiffrer et déchiffrer des messages, générer et vérifier des signatures numériques, créer et valider des certificats publics via un organisme certificateur.",
+        "competences": [
+            "Maîtrise des concepts de cryptographie asymétrique et des mathématiques associées",
+            "Gestion de projet collaboratif avec Git/GitLab",
+            "Programmation orienté objet en Python",
+            "Réalisation de tests unitaires avec Pytest"
+        ],
+        "amelioration": "Optimisation des algorithmes pour des messages de grande taille, ajout d’une interface utilisateur, étendre le projet pour inclure des fonctionnalités réseau simulées ",
+        "outils": [
+            {
+                "image": "Python.svg",
+                "nom": "Python"
+            },
+            {
+                "image": "pytest.png",
+                "nom": "Pytest"
+            },
+            {
+                "image": "GitLab.svg",
+                "nom": "GitLab"
+            },
+            {
+                "image": "VSCode.svg",
+                "nom": "VScode"
+            }
+        ],
+        "etapes": [
+            "Implémentation des bases de la cryptographie asymétrique (clés publiques et privées, chiffrement, déchiffrement)",
+            "Implémentation de la signature numérique et d’un algorithm de hashage",
+            "Implémentation d’un certificat pour une clé publique, signé par une autorité de certification ",
+            "Implémentation du test de primalité de Miller-Rabin",
+            "Ajout de la prise en charge des messages textes pour le chiffrement, déchiffrement et signature"
+        ],
+        "voirPlus": "https://github.com/OceaneJF/MiniRSA",
+        "telecharger": "MiniRSA.pdf"
     }
 ]
