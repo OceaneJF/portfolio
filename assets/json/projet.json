@@ -1015,5 +1015,54 @@
         ],
         "voirPlus": "https://github.com/OceaneJF/MiniRSA",
         "telecharger": "MiniRSA.pdf"
+    },
+    {
+        "projet": "<span>RobotChamp</span>",
+        "titre": "Création d'une <span>application</span> dédiée à la gestion des <span>compétitions</span> de football pour robots en <span>Symfony</span> et <span>TailwindCSS</span>.",
+        "image": "accueilRobotChamp.png",
+        "figure": "Page d’accueil de l’application",
+        "resultat": "Plateforme gérant toutes les étapes d’une compétition de football pour robots, avec un système sécurisé pour la gestion des utilisateurs, des équipes et des compétitions. Interface responsive et automatisation des tâches complexes, comme la génération de créneaux et la planification des rencontres.",
+        "competences": [
+            "Développement d'applications web avec Symfony",
+            "Gestion de données MySQL et fixtures",
+            "Interfaces responsives en Twig/TailwindCSS",
+            "Gestion de projet en méthodologie Agile"
+        ],
+        "amelioration": "Ajout d’un système de rencontres éliminatoires.",
+        "outils": [
+            {
+                "image": "symfony.png",
+                "nom": "Symfony"
+            },
+            {
+                "image": "twig.png",
+                "nom": "Twig"
+            },
+            {
+                "image": "Tailwind.png",
+                "nom": "TailwindCSS"
+            },
+            {
+                "image": "PHPMyAdmin.png",
+                "nom": "PHPMyAdmin"
+            },
+            {
+                "image": "GitLab.svg",
+                "nom": "GitLab"
+            },
+            {
+                "image": "VSCode.svg",
+                "nom": "VScode"
+            }
+        ],
+        "etapes": [
+            "Planification : définition de l’incrément et priorisation des US",
+            "Sprint backlog : sélection des US à réaliser durant le sprint (Issue Board sur GitLab)",
+            "Sprint : production de l’incrément avec daily meetings pour le suivi",
+            "Démo : présentation de l’incrément au PO et recueil des retours",
+            "Sprint rétrospective : analyse des axes d’amélioration pour le prochain sprint"
+        ],
+        "voirPlus": "https://github.com/OceaneJF/RobotChamp",
+        "telecharger": "RobotChamp.pdf"
     }
 ]
